@@ -1,5 +1,8 @@
 name: deploy
-on: [push]
+on:
+  push:
+    branches: master
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,16 +21,23 @@ jobs:
     - name: Generate Copypasta JSON
       run: venv/bin/python generate_copypasta.py
     - name: Archive Files
-      run: tar cvzf archive.tar.gz index.html copypasta.json
+      run: tar cvzf artifact.tar.gz index.html copypasta.json
     - name: Artifact
       uses: actions/upload-artifact@v3
       with:
         name: github-pages
-        path: archive.tar.gz
+        path: artifact.tar.gz
         if-no-files-found: error
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: actions/deploy-pages@v2
