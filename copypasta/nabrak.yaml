@@ -1,0 +1,27 @@
+name: Penderitaan Nabrak (Susu)
+inputs:
+  - name: comparator
+    description: Lebih sedih daripada siapa?
+    default: Kamijou Touma
+  - name: waifu
+    description: Nama waifu.
+text: |
+  Penderitaan Ku selama hidup!! (Lebih sedih daripada {comparator:camelcase})
+  
+  1. Nabrak susu {waifu:camelcase} 😭
+  
+  2. Jalan dikit kesandung nabrak susu {waifu:camelcase} 😭
+  
+  3. Buka pintu kaget liat ada anak kecil nabrak susu {waifu:camelcase} 😭
+  
+  4. Lagi tidur ketiban susu {waifu:camelcase} 😭
+  
+  5. Dipeluk {waifu:camelcase} kena susu 😭
+  
+  6. Susu {waifu:camelcase} 😭
+  
+  7. Aku capek, {waifu:camelcase} bilek: sini nyusu 😭
+  
+  8. Pengen susu {waifu:camelcase} 😭
+  
+  9. Susu 😭

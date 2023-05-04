@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Get Well Soon</title>
+	<meta name="description" content="Generator Copypasta Halu">
+	<meta name="keywords" content="copypasta, generator, stres, halu">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+	<script>
+		const TRANSFORMERS = {
+			"none": (input) => input,
+			"camelcase": (input) => {
+				const splitted = input.split(" ")
+
+				for (let i = 0; i < splitted.length; i++) {
+					const s = splitted[i]
+					if (s.length > 0) {
+						splitted[i] = s[0].toLocaleUpperCase() + s.substring(1);
+					}
+				}
+
+				return splitted.join(" ")
+			},
+			"uppercase": (input) => input.toLocaleUpperCase(),
+			"lowercase": (input) => input.toLocaleLowerCase()
+		}
+
+		function ready(fn) {
+			if (document.readyState !== "loading") {
+				fn()
+			} else {
+				document.addEventListener("DOMContentLoaded", fn)
+			}
+		}
+
+		function rebuildCopypastaText(copypastaResultElem, originalText, inputs, twolf) {
+			const newText = originalText.replaceAll(/{([\w_]+:?\w*)}/g, (match, p1) => {
+				const nameAndTransform = p1.split(":", 2)
+				const inputName = nameAndTransform[0]
+				const transformFunc = TRANSFORMERS[nameAndTransform[1] ?? "none"] ?? TRANSFORMERS.none
+
+				if (inputs[inputName] === undefined) {
+					return "{" + p1 + "}"
+				}
+
+				return transformFunc(inputs[inputName])
+			})
+			const fixedNewLineText = newText.replaceAll(/\n+/g, match => {
+				return match.length == 1 ? " " : match.substring(1 - twolf)
+			})
+			copypastaResultElem.value = fixedNewLineText
+		}
+
+		function getPreviousInput(id, def) {
+			console.log("Getting input", id)
+			return localStorage.getItem(id) ?? def
+		}
+
+		function setInputValue(id, val) {
+			console.log("Setting input", id)
+			localStorage.setItem(id, val)
+		}
+
+		function initializeCopypasta(inputRootElem, copypastaResultElem, copypastaText, inputdefs, pastaId) {
+			let twoLFElem = document.getElementById("copypasta_2lf")
+			let fragment = document.createDocumentFragment()
+			let inputValues = {}
+
+			twoLFElem.onchange = () => rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+
+			function inputOnChange(ev) {
+				inputValues[ev.target.id] = ev.target.value
+				setInputValue(`${pastaId}.${ev.target.id}`, ev.target.value)
+				rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+			}
+
+			inputdefs.forEach(input => {
+				const div = document.createElement("div")
+				const label = document.createElement("label")
+				const inputElem = document.createElement("input")
+				const placeholder = input.default ? ("Contoh: " + input.default) : input.description
+
+				inputValue = getPreviousInput(`${pastaId}.${input.name}`, input.default)
+				inputValues[input.name] = inputValue
+				inputElem.id = input.name
+				inputElem.type = "text"
+				inputElem.value = inputValue
+				inputElem.setAttribute("placeholder", placeholder)
+				inputElem.addEventListener("input", inputOnChange)
+				label.textContent = input.description
+				div.classList.add("field")
+				div.appendChild(label)
+				div.appendChild(inputElem)
+
+				fragment.appendChild(div)
+			});
+
+			inputRootElem.replaceChildren(fragment)
+			rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+		}
+
+		ready(async () => {
+			let copypastaList = document.getElementById("copypasta_list")
+			let copypastaResult = document.getElementById("copypasta_result")
+			let copypastaInputRoot = document.getElementById("copypasta_inputs")
+			let copypastaCopyButton = document.getElementById("copypasta_copy")
+			let jsondata = null
+
+			copypastaResult.value = ""
+			copypastaCopyButton.addEventListener("click", async () => {
+				if (copypastaResult.value) {
+					await navigator.clipboard.writeText(copypastaResult.value)
+				}
+			})
+
+			try {
+				const response = await fetch("copypasta.json")
+				jsondata = await response.json()
+			} catch (error) {
+				console.log(error)
+			}
+
+			if (jsondata !== null) {
+				let inverseMap = {}
+				jsondata.forEach(element => {
+					const optElem = document.createElement("option")
+					inverseMap[element.id] = element
+					optElem.value = element.id
+					optElem.textContent = element.name
+					copypastaList.appendChild(optElem)
+				})
+
+				copypastaList.addEventListener("change", (ev) => {
+					const copypasta = inverseMap[ev.target.value]
+					initializeCopypasta(copypastaInputRoot, copypastaResult, copypasta.text, copypasta.inputs, copypasta.id)
+				})
+			}
+
+			$('.ui.dropdown').dropdown()
+		})
+	</script>
+</head>
+
+<body style="padding:1em">
+	<section class="ui green segment">
+		<h1 class="ui header"></i><i class="paste icon"></i> Halu Generator</h1>
+		<select id="copypasta_list" class="ui fluid dropdown">
+			<option value="" default>Pilih Copypasta</option>
+		</select>
+		<div class="ui red segment">
+			<h2 class="ui header">Parameter</h2>
+			<div id="copypasta_inputs" class="ui form">
+			</div>
+		</div>
+		<div class="ui form">
+			<textarea id="copypasta_result" readonly></textarea>
+		</div>
+		<br />
+		<div class="ui checkbox">
+			<input id="copypasta_2lf" type="checkbox">
+			<label>Paragraf baru, 2 baris baru</label>
+		</div>
+		<br />
+		<br />
+		<button id="copypasta_copy" class="ui fluid blue button">
+			<i class="copy icon"></i>Salin
+		</button>
+	</section>
+</body>
+
+</html>

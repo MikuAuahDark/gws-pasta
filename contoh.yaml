@@ -1,0 +1,43 @@
+# Cara membuat copypasta baru
+# Definisi copypasta mengikuti format YAML
+# https://learnxinyminutes.com/docs/yaml/
+
+# Nama copypasta.
+name: Contoh Copypasta
+
+# Daftar inputan copypasta
+inputs:
+  # Definisikan variabel input "who"
+  - # Nama variabel
+    name: who
+    # Deskripsi variabel
+    description: Siapa?
+    # Input nilai default yang terisi otomatis.
+    # Jika tidak ada, maka nilai "default" dianggap kosong.
+    default: you
+  # Definisikan variabel input "faction"
+  - name: faction
+    description: Faksi Terlibat
+    default: Masked Fools
+
+# Teks copypasta. Variabel yang ada dalam "inputs" harus diapit dengan kurung kurawal
+# yang kemudian akan dilakukan interpolasi string dengan variabel yang sudah didefinisikan.
+#
+# Format interpolasi string adalah "{<nama variable>[:<transformasi>]}"
+# * <nama variable> - Nama variable yang sudah didefinisikan pada "inputs"
+# * <transformasi> - Transformasi input. Nilai yang memungkinkan:
+#                    * none - Tidak dilakukan transformasi input.
+#                    * camelcase - Kata pertama setelah spasi akan diubah jadi huruf kapital.
+#                    * uppercase - Semua kata diubah jadi huruf kapital.
+#                    * lowercase - Semua kata diubah jadi huruf kecil.
+#                    Jika opsi "transform" bukan salah 1 dari diatas atau tidak dimasukkan,
+#                    maka diasumsikan opsi "none".
+#
+# Catatan: Memilai paragraf baru harus menggunakan 2 atau lebih baris baru!
+# Berikut contoh teks cerita Masked Fools dari Honkai Star Rail
+text: |
+  "Even a Faction like {faction:camelcase} sing praises of their Aeon, because Aeon will never give
+  {who} up, never let {who:uppercase} down, or abandon {who:camelcase}. The Aeon will never make
+  {who:lowercase} cry, say goodbye, or tell a lie and hurt {who:none}."
+
+  — Ast Rickley, super popstar of the Epsilon XII Galaxy

@@ -1,0 +1,22 @@
+name: WANGY WANGY
+inputs:
+  - name: waifu
+    description: Nama Waifu
+    default: Keqing
+
+text: |
+  {waifu:uppercase}...... {waifu:uppercase} ❤ ❤ ❤ WANGY WANGY WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya
+  {waifu:uppercase} wangi aku mau nyiumin aroma wanginya {waifu:uppercase} AAAAAAAAH ~~ Rambutnya.... aaah rambutnya
+  juga pengen aku elus-elus ~ AAAAAH {waifu:uppercase} ❤ ❤ ❤   manis banget AAAAAAAAH
+
+  TATAPAN {waifu:uppercase} BEGITU MENGGODAAAAAAAAA............ GUA RELA JADI BUDAK SIMP HANYA DEMI {waifu:uppercase}
+  TERDJINTA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH
+
+  apa ? {waifu:camelcase} itu gak nyata ? Cuma karakter 2 dimensi katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA
+  GAK PERCAYA ITU DIA NYATA !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. {waifu:uppercase} ngeliat gw ...
+  {waifu:uppercase} NGELIATIN GW! {waifu:uppercase}... kamu percaya sama aku ? aaaaaaaaaaah syukur {waifu:camelcase}
+  gak malu memiliki aku aaaaaah ❤ ❤ ❤ YEAAAAAAAAAAAH GUA MASIH PUNYA {waifu:uppercase}, {waifu:uppercase} AKU
+  SAYANG {waifu:uppercase} AKU CINTA {waifu:uppercase} AKU AKU INGIN {waifu:uppercase} MENJADI
+  BIDADARIKUUUUUUU!!!!!!!!!!!!!
+
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH!!!!!!!!!!!!!!!!!!!!!!
