@@ -20,14 +20,16 @@ jobs:
       run: venv/bin/pip install pyyaml
     - name: Generate Copypasta JSON
       run: venv/bin/python generate_copypasta.py
-    - name: Archive Files
-      run: tar --dereference --hard-dereference --directory $GITHUB_WORKSPACE -cvf artifact.tar index.html copypasta.json
-    - name: Artifact
-      uses: actions/upload-artifact@v3
+    - name: Copy Needed Files
+      run: |
+        set -e
+        mkdir _site
+        cp index.html _site/index.html
+        cp copypasta.json _site/copypasta.json
+    - name: GitHub Pages Artifact
+      uses: actions/upload-pages-artifact@v1
       with:
-        name: github-pages
-        path: artifact.tar
-        if-no-files-found: error
+        retention-days: 90
   deploy:
     runs-on: ubuntu-latest
     needs: build
