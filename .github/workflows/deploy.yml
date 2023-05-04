@@ -21,12 +21,12 @@ jobs:
     - name: Generate Copypasta JSON
       run: venv/bin/python generate_copypasta.py
     - name: Archive Files
-      run: tar cvzf artifact.tar.gz index.html copypasta.json
+      run: tar --dereference --hard-dereference --directory $GITHUB_WORKSPACE -cvf artifact.tar index.html copypasta.json
     - name: Artifact
       uses: actions/upload-artifact@v3
       with:
         name: github-pages
-        path: artifact.tar.gz
+        path: artifact.tar
         if-no-files-found: error
   deploy:
     runs-on: ubuntu-latest
