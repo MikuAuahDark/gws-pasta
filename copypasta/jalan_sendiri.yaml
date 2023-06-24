@@ -1,0 +1,15 @@
+name: Jalan Sendiri
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Lumine
+
+text: |
+  Lu pernah ga si? 
+
+  Lagi jalan sendirian, terus tiba tiba ada cewe nyamperin. "Kamu kok sendirian?" Waktu dia nanya itu pandangan gw
+  cuman fokus liatin muka nya yang imut dengan gugup gua jawab "e-eh iyaaa aku emang suka sendiri kok" terus dia tiba
+  tiba narik tangan gw buat jalan bareng sama dia. 
+
+  Gw cuman bisa nurut dan speechless waktu dia gandeng tangan gw, kita pergi nonton dan bahkan makan bareng. Sampai
+  akhirnya dia ngasih no wa nya, dan ngenalin diri nya sendiri "Belum kenalan ya? Panggil aja, {who:camelcase}"
