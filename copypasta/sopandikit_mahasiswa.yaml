@@ -1,0 +1,33 @@
+# https://github.com/Taufik-H/sopandikit
+name: Sopan Dikit 🙏 (Mahasiswa)
+inputs:
+  - name: izin
+    description: Izin Apa?
+    default: "[ALASAN]"
+  - name: nama
+    description: Nama kamu siapa?
+    default: "[NAMA]"
+  - name: nim
+    description: Nomor Induk Mahasiswa?
+    default: "[NIM]"
+  - name: tanggal
+    description: Tanggal berapa?
+    default: "[TANGGAL]"
+
+text: |
+  Assalamu'alaikum warahmatullahi wabarakatuh.
+
+
+  Dengan hormat, saya mahasiswa yang bernama :
+
+  Nama :  {nama:camelcase}
+
+  NIM : {nim:uppercase}
+
+
+  Memberitahukan bahwa pada hari ini {tanggal}, saya memohon izin tidak dapat mengikuti kegiatan perkuliahan
+  dikarenakan {izin}.
+
+  Atas perhatiannya saya ucapkan terima kasih
+
+  Wasalamualaikum Warahmatullah Wabarakatuh.

@@ -1,0 +1,42 @@
+# https://github.com/Taufik-H/sopandikit
+name: Sopan Dikit 🙏 (Siswa)
+inputs:
+  - name: izin
+    description: Izin Apa?
+    default: "[ALASAN]"
+  - name: nama
+    description: Nama kamu siapa?
+    default: "[NAMA]"
+  - name: namaWali
+    description: Nama wali kelas kamu siapa?
+    default: "[NAMA WALI]"
+  - name: tanggal
+    description: Tanggal berapa?
+    default: "[TANGGAL]"
+  - name: kelas
+    description: Kelas Berapa?
+    default: "[KELAS]"
+
+text: |
+  Assalamualaikum, selamat pagi 
+
+
+  Yth. Bapak/Ibu guru wali kelas {kelas:uppercase},
+
+
+  Perkenalkan saya {namaWali:camelcase} selaku wali murid atas nama {nama:camelcase}, dengan ini saya menyampaikan
+  bahwa pada hari ini {tanggal}, anak saya tidak dapat mengikuti kegiatan pembelajaran seperti biasa dikarenakan
+  {izin}.
+
+
+  Demikian surat izin ini kami sampaikan, atas perhatian dan kebijaksanaan bapak/ibu guru, kami ucapkan terima kasih.
+
+  Wassalamualaikum Wr. Wb.
+
+
+  Hormat kami
+
+  Wali Murid
+
+
+  {namaWali:camelcase}
