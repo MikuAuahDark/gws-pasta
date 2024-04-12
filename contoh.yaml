@@ -7,7 +7,7 @@ name: Contoh Copypasta
 
 # Daftar inputan copypasta
 inputs:
-  # Definisikan variabel input "who"
+  # Definisikan variabel input string bebas "who"
   - # Nama variabel
     name: who
     # Deskripsi variabel
@@ -15,10 +15,15 @@ inputs:
     # Input nilai default yang terisi otomatis.
     # Jika tidak ada, maka nilai "default" dianggap kosong.
     default: you
-  # Definisikan variabel input "faction"
+
+  # Definisikan variabel input pilihan ganda "faction"
   - name: faction
     description: Faksi Terlibat
-    default: Masked Fools
+    # Input pilihan yang memungkinkan
+    choice: [Masked Fools, Fatui]
+    # Nilai default yang dipilih. Indeks mulai dari 1, jadi 1 = Masked Fools.
+    # Jika tidak ada, maka indeks defaultnya 1.
+    default: 1
 
 # Teks copypasta. Variabel yang ada dalam "inputs" harus diapit dengan kurung kurawal
 # yang kemudian akan dilakukan interpolasi string dengan variabel yang sudah didefinisikan.

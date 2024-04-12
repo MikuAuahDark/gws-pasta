@@ -30,6 +30,15 @@
 			"lowercase": (input) => input.toLocaleLowerCase()
 		}
 
+		function pcall(f, ...args) {
+			try {
+				return [true, f(...args)]
+			} catch (e) {
+				console.error(e)
+				return [false, e]
+			}
+		}
+
 		function ready(fn) {
 			if (document.readyState !== "loading") {
 				fn()
@@ -56,9 +65,20 @@
 			copypastaResultElem.value = fixedNewLineText
 		}
 
-		function getPreviousInput(id, def) {
+		function getPreviousInput(id, def, maxnum) {
 			console.log("Getting input", id)
-			return localStorage.getItem(id) ?? def
+			const result = localStorage.getItem(id) ?? def
+
+			if (maxnum > 0) {
+				const numresult = Number(result)
+				if (numresult != numresult || numresult < 1 || numresult > maxnum) {
+					return def
+				} else {
+					return numresult
+				}
+			} else {
+				return result
+			}
 		}
 
 		function setInputValue(id, val) {
@@ -82,16 +102,50 @@
 			inputdefs.forEach(input => {
 				const div = document.createElement("div")
 				const label = document.createElement("label")
-				const inputElem = document.createElement("input")
 				const placeholder = input.default ? ("Contoh: " + input.default) : input.description
+				const multipleChoice = "choice" in input
+				let inputElem
 
-				inputValue = getPreviousInput(`${pastaId}.${input.name}`, input.default)
-				inputValues[input.name] = inputValue
+				inputValue = getPreviousInput(`${pastaId}.${input.name}`, input.default, multipleChoice ? input.choice.length : 0)
+
+				if (multipleChoice) {
+					inputElem = document.createElement("select")
+					inputElem.classList.add("ui", "dropdown")
+					inputValues[input.name] = input.choice[inputValue - 1]
+
+					for (let i = 1; i <= input.choice.length; i++) {
+						const option = document.createElement("option")
+						option.textContent = input.choice[i - 1]
+						option.setAttribute("value", i.toString())
+						if (i == inputValue) {
+							option.setAttribute("selected", "")
+						}
+						inputElem.appendChild(option)
+					}
+
+					inputElem.addEventListener("change", (ev) => {
+						const intval = Number(ev.target.value)
+						if (intval != intval) {
+							throw new Error("option value invalid, assert error")
+						}
+
+						inputValues[ev.target.id] = input.choice[intval - 1]
+						setInputValue(`${pastaId}.${ev.target.id}`, intval)
+						rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+					})
+				} else {
+					inputValues[input.name] = inputValue
+					inputElem = document.createElement("input")
+					inputElem.type = "text"
+					inputElem.value = inputValue
+					inputElem.setAttribute("placeholder", placeholder)
+					inputElem.addEventListener("input", (ev) => {
+						inputValues[ev.target.id] = ev.target.value
+						setInputValue(`${pastaId}.${ev.target.id}`, ev.target.value)
+						rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+					})
+				}
 				inputElem.id = input.name
-				inputElem.type = "text"
-				inputElem.value = inputValue
-				inputElem.setAttribute("placeholder", placeholder)
-				inputElem.addEventListener("input", inputOnChange)
 				label.textContent = input.description
 				div.classList.add("field")
 				div.appendChild(label)
@@ -141,7 +195,7 @@
 				})
 			}
 
-			$('.ui.dropdown').dropdown()
+			pcall(() => $('.ui.dropdown').dropdown())
 		})
 	</script>
 </head>
