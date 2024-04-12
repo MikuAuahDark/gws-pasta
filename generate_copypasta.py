@@ -5,30 +5,29 @@ import os
 import yaml
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(kw_only=True)
 class CopypastaInput:
     name: str
     description: str | None = None
+
+
+@dataclasses.dataclass(kw_only=True)
+class CopypastaStringInput(CopypastaInput):
     default: str = ""
 
-    def dict(self):
-        return {"name": self.name, "description": self.description or self.name, "default": self.default}
+
+@dataclasses.dataclass(kw_only=True)
+class CopypastaChoiceInput(CopypastaInput):
+    choice: list[str]
+    default: int = 1
 
 
-@dataclasses.dataclass
+@dataclasses.dataclass(kw_only=True)
 class CopypastaData:
     id: str
     name: str
     inputs: list[CopypastaInput]
     text: str
-
-    def dict(self):
-        return {
-            "id": self.id,
-            "name": self.name,
-            "inputs": list(map(CopypastaInput.dict, self.inputs)),
-            "text": self.text,
-        }
 
 
 def slugify(name: str):
@@ -54,25 +53,38 @@ def main():
             with open(copypasta.path, "r", encoding="UTF-8", newline="\n") as f:
                 yamldata = yaml.load(f, Loader=yaml.Loader)
 
+            copypasta_input: list[CopypastaInput] = []
+            for input_data in yamldata["inputs"]:
+                if "choice" in input_data:
+                    copypasta_input.append(
+                        CopypastaChoiceInput(
+                            name=input_data["name"],
+                            description=input_data.get("description", input_data["name"]),
+                            choice=input_data["choice"],
+                            default=input_data.get("default", 1),
+                        )
+                    )
+                else:
+                    copypasta_input.append(
+                        CopypastaStringInput(
+                            name=input_data["name"],
+                            description=input_data.get("description", input_data["name"]),
+                            default=input_data.get("default", ""),
+                        )
+                    )
+
             copypastas.append(
                 CopypastaData(
                     id=copypasta_id,
                     name=yamldata["name"],
-                    inputs=[
-                        CopypastaInput(
-                            name=input["name"],
-                            description=input.get("description", input["name"]),
-                            default=input.get("default", ""),
-                        )
-                        for input in yamldata["inputs"]
-                    ],
+                    inputs=copypasta_input,
                     text=yamldata["text"],
                 )
             )
 
     # JSONizie
     with open("copypasta.json", "w", encoding="UTF-8", newline="") as f:
-        json.dump(list(map(CopypastaData.dict, copypastas)), f)
+        json.dump(list(map(dataclasses.asdict, copypastas)), f)
 
 
 if __name__ == "__main__":
