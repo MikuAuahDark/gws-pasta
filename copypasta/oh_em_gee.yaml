@@ -1,0 +1,16 @@
+name: NEVER TALKED ABOUT HER
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Navia
+  - name: pronoun
+    description: Dia Cewe (She) atau Cowo (He)
+    choice: [he, she]
+    default: 2
+
+text: |
+  OMGGGGG I NEVER TALKED ABOUT HER HERE BEFORE CUZ I DONT WANT TO BUT WTF I HAD A CRUSH AND SHE CONFESSED TO
+  ME???!!!!! WHAAAA—WTFFFFFFF. {pronoun:camelcase} just randomly chatted me and said something like "Hi idk if u
+  noticed but i think i like u" THAT WAS KINDA CRINGY/CHEESY BUT AAAAAAAA I WAS LIKE???? WHAT????? ARE U FREAKING
+  SERIOUS ARE U SURE ABOUT THAT. AND THEN I FREAKING SAID "ohmygod u have great taste and yeah i like you too,
+  {who:camelcase}" anyways, we’re in love now 📷

@@ -1,0 +1,29 @@
+name: Keharmonisan Rumah Tangga
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Stelle
+  - name: gender
+    description: Jenis Kelamin
+    choice: [perempuan, laki-laki]
+    default: 1
+  - name: pasangan
+    description: Pasangan Suami/Istri?
+    choice: [istri, suami]
+    default: 1
+
+
+text: |
+  Maaf bukan bermaksud pamer keharmonisan rumah tangga kita,
+
+  Percayalah punya {pasangan} {who:camelcase} itu enak, mau bangun atau tidur {pasangan} tetep bakal cium kita🙏
+
+  Ngga seperti yang kalian pikir punya {pasangan} doyan anu.
+
+  Saya aja dibuat bahagia puh.
+
+  Percayalah sepolos polosnya {gender} biasanya mayoritas mesra ama pasangannya.
+
+  Ini aja udah lemes tapi {pasangan} tetep maksa buat bermesraan🙏
+
+  Walaupun {pasangan} saya {who:camelcase} tapi saya tetep cinta sama dia dan dia juga cinta sama saya😁

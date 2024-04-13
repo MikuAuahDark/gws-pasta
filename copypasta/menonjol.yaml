@@ -1,0 +1,21 @@
+name: MENONJOL
+inputs:
+  - name: who
+    description: Siapa?
+    default: Tomori Kusunoki
+  - name: who2
+    description: Nama Akrabnya?
+    default: Tomoriru
+  - name: pasangan
+    description: Pasangan
+    choice: [cewe, cowo, istri, suami]
+    default: 3
+
+text: |
+  {who:camelcase} adalah seiyuu yang sangat MENONJOL, bukan hanya MENONJOL sebagai seiyuu {who:camelcase} yang akrab
+  dipanggil {who2:camelcase} ini juga MENONJOL sebagai seorang penyanyi, {who2:camelcase} memiliki bakat musik yang
+  sangat MENONJOL untuk seorang seiyuu. {who2:camelcase} juga sangat MENONJOL diantara seiyuu yang seumuran denganya,
+  karna keunikan dia dalam hal penyuaraan karakter juga bernyanyi yang sangat MENONJOL, {who2:camelcase} berhasil
+  menjadi seiyuu pendatang barau yang sangat MENONJOL dan cepat melejit terkenal.
+
+  Mari kita sama-sama mendukung {who2:camelcase} agar dia selalu MENONJOL diantara yang lain.

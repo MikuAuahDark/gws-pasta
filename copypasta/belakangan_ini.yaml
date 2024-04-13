@@ -1,0 +1,35 @@
+name: Belakangan Ini
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Navia
+  - name: ortu
+    description: Orang Tua
+    default: emak
+  - name: ortu2
+    description: Orang Tua (2)
+    default: nenek
+  - name: diliat
+    description: Siapa yang liat?
+    default: kakak
+  - name: gender
+    description: Cewe atau Cowo?
+    choice: [cewe, cowo]
+    default: 1
+  - name: daya_tarik
+    description: Cantik atau Ganteng?
+    choice: [cantik, ganteng]
+    default: 1
+
+text: |
+  Jadi saya belakangan ini udah punya pacar, tapi saya diam2 karena takut bikin FL iri dana gak pede buat buka2an.
+  Jadi tapi waktu lagi ngobrol ama pacar, tiba2 ditelpon sama {ortu:lowercase} buat pulang, katanya bawa pacar juga.
+  Saya panik dong soalnya saya gak pernah bilang apa2 ke {ortu:lowercase} tapi tiba2 {ortu:lowercase} minta bawa
+  pacar. Saya tanya dia kalo mau kenalan ama {ortu:lowercase} saya, dan dia setuju.
+
+  Akhirnya saya ajak pacar saya ke rumah. Sampainya di rumah saya beraniin diri kalo saya udah 2 tahun jalan sama dia.
+  {ortu:camelcase} ama {ortu2:lowercase} kaget, tapi pas mereka liat dia ({ortu2:lowercase} saya jago kalo masalah
+  ginian) mereka kaget bisa dapat {gender:lowercase} sebaik, sepenyayang, dan se{daya_tarik} dia. Pas saya tanya
+  {ortu:camelcase}, katanya saya diliat {diliat:lowercase} lagi ama {gender:lowercase} makanya bisa ketauan, haiyaa.
+
+  Akhirnya saya makin sayang deh ama {who:camelcase} 😚

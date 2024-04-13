@@ -1,0 +1,15 @@
+name: Gak Suka Cewe/Cowo Real
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Amber
+  - name: gender
+    description: Cewe atau Cowo?
+    choice: [cewe, cowo]
+    default: 1
+
+text: |
+  Gini ya guys aku mau jelasin ke kalian alesan aku gak suka {gender} real karna udah jelas perbandingannya kan,
+  kalian bayangin aja masa aku harus berpasangan sama {gender} yang ngabisin waktu aku, bikin gak produktif, pokonya
+  ga sesuai harapan, coba kamu kalian liat orang jomblo, produktif, gak banyak beban, semoga bisa dapet jodoh kaya
+  {who:camelcase} amiin 📷📷

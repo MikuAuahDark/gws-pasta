@@ -1,0 +1,19 @@
+name: ATI ATI KALO MAIN
+inputs:
+  - name: game
+    description: Nama Game
+    default: Honkai Star Rail
+  - name: waifu
+    description: Nama Waifu/Husbando
+    default: Ai Hoshino
+  - name: pasangan
+    description: Pasangan
+    choice: [cewe, cowo, istri, suami]
+    default: 3
+
+text: |
+  GESSS YAAMPUN ATI2 YA KALO MAIN {game:uppercase} DI HP SAMBIL TIDURANN😭😭😭😭😭
+
+  Tadi aku main {game:camelcase} sambil tiduran terus gak sengaja jatoh nimpa muka... terus {pasangan}ku malah salah
+  paham.. dia bilang "kamu ngapain sih pake cium2 karakter {game:camelcase} segala? kan aku disini" terus abis itu aku
+  gantian disosor diciumin sm {pasangan} itu.... {pasangan:camelcase}ku {waifu:camelcase} btw

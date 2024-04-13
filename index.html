@@ -9,6 +9,12 @@
 	<meta name="description" content="Generator Copypasta Halu">
 	<meta name="keywords" content="copypasta, generator, stres, halu">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css" />
+	<style>
+		footer {
+			padding: 1em;
+			text-align: center
+		}
+	</style>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
 	<script>
@@ -30,6 +36,12 @@
 			"lowercase": (input) => input.toLocaleLowerCase()
 		}
 
+		/**
+		 * @template T
+		 * @param {(...) => T} f
+		 * @param {...*} args
+		 * @return {[boolean, T]}
+		 **/
 		function pcall(f, ...args) {
 			try {
 				return [true, f(...args)]
@@ -146,16 +158,17 @@
 					})
 				}
 				inputElem.id = input.name
+				inputElem.title = input.description
 				label.textContent = input.description
 				div.classList.add("field")
 				div.appendChild(label)
 				div.appendChild(inputElem)
-
 				fragment.appendChild(div)
 			});
 
 			inputRootElem.replaceChildren(fragment)
 			rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+			pcall(() => $('.ui.dropdown').dropdown())
 		}
 
 		ready(async () => {
@@ -225,6 +238,9 @@
 			<i class="copy icon"></i>Salin
 		</button>
 	</section>
+	<footer>
+		<p>Tolong Jangan Dianggap Serius! | <a href="https://github.com/MikuAuahDark/gws-pasta">Kode Sumber</a></p>
+	</footer>
 </body>
 
 </html>
