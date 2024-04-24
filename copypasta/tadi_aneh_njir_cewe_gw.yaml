@@ -1,0 +1,8 @@
+name: Tadi Aneh-Aneh Njir Cewe Gw
+inputs:
+  - name: namaWaifu
+    description: Nama waifu kamu?
+    default: "[WAIFU]"
+
+text: |
+  Tadi aneh2 njirr cewe gw nanya "pilih aku atau {namaWaifu:camelcase}" ya gw heran sendiri ya tiba2 bgt nanyain gitu, langsung gw jawab "lah kamu kan {namaWaifu:camelcase}, sayang?"
