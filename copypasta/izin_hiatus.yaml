@@ -1,0 +1,22 @@
+name: Izin Hiatus
+inputs:
+  - name: socmed
+    description: Nama sosial media kamu
+    default: fb
+  - name: pasangan
+    description: Tipe Pasangan
+    choice: [istri, suami]
+    default: 1
+  - name: who
+    description: Nama Pasangan Kamu
+    default: "Madoka Higuchi"
+text: |
+  Aku beneran minta maaf semua.
+
+  Beneran, ini aku lagi ada di situasi yang bikin aku harus hiatus sebentar dari {socmed}. 
+
+  Aku beneran bingung mau mikir bikin status hiatus atau gak.
+
+  Soalnya takut banyak yang khawatir semisal tiba-tiba ngilang dikiranya kenapa-napa. 
+
+  Beneran aku takut, semisal ada yang cariin aku waktu lagi honeymoon sama {pasangan}ku {who:camelcase}. Soalnya orangnya gak mau diumbar gitu kita lagi berduaan, jadi dia maunya honeymoon kita ke pulau pribadi dan kita saling fokus satu sama lain.
