@@ -1,0 +1,11 @@
+name: Kawan, Aku Gemetaran
+inputs:
+  - name: who
+    description: Mau Genjot Siapa?
+    default: Elaina
+
+text: |
+  Kawan, aku gemetaran. Aku benar-benar gemetaran. Aku tidak pernah ingin genjot dengan siapa pun lebih dari yang aku inginkan terkecuali {who:camelcase}. Tubuh melengkung yang sempurna itu. Paha yg mulus itu. Wanita itu membawa pinggul dewi yang nyata. Sialan benar-benar menyakitkan mengetahui bahwa aku tidak akan pernah genjot dengan dia, melalui genku dan dia, yang akhirnya melahirkan satu set keturunan yang sempurna. Aku akan melakukan APA SAJA untuk mendapatkan kesempatan agar {who:camelcase} hamil. A P A S A J A. Dan faktanya ini hanyalah imajinasi saja...
+
+
+  Mengapa tuhan menciptakan sesuatu yang begitu sempurna? Sesuatu yang sangat menggoda iman? Mereka pasti tertawa setelah melihat tulisan ku ini (membayangkan betapa cabulnya diriku) tapi jujur, aku hanya tidak bisa menahan diriku lagi
