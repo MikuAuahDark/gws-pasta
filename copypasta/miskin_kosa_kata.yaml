@@ -1,0 +1,8 @@
+name: Miskin Kosa Kata
+inputs:
+  - name: who
+    description: Nama Pasangan Kamu
+    default: istriku
+text: |
+  Ternyata bener ya bahasa indonesia itu miskin kosa kata... kata-kata bahasa inggris kayak "pretty" "fabulous"
+  "my beloved" "beautiful" "fantastic" ternyata bahasa indonesianya cuma satu kata, yaitu "{who}"

@@ -1,0 +1,12 @@
+name: Event Paling Berat
+inputs:
+  - name: waifu
+    description: Nama Waifu Kamu
+    default: Hanako
+  - name: devgame
+    description: Nama Pengembang Game
+    default: nekson
+text: |
+  Sejauh ini, ini event paling berat menurut gw😡😡. Kenapa? mau baca text aja susah fokus, apalagi yg bicara mereka
+  berdua. Gimana g tegang tiap kali baca story, apalagi muka {waifu:camelcase} nya kyk gitu🥵😡🥵. Lama" lelah adek
+  gw berdiri terus. Tolong kpd pihak {devgame} klo bikin desain jgn keterlaluan 😡😡🥵😡

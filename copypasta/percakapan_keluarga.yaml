@@ -1,0 +1,26 @@
+name: Percakapan Keluarga Kecil
+inputs:
+  - name: waifu
+    description: Nama Waifu Kamu
+    default: Miyu
+  - name: game
+    description: Nama Game
+    default: FGO
+text: |
+  Percakapan kecil keluarga kami.
+
+  .
+
+  .
+
+  .
+
+  Anak: "Pah, Papa dulu suka main game ga?"
+
+  Saya: "Suka, apalagi FGO."
+
+  Anak: "Waww! Papa di FGO dulu suka nya siapa?"
+
+  Saya: "{waifu:camelcase} 🥺"
+
+  {waifu:camelcase} : "IYA SAYANG? BUNDA LAGI BIKIN KUE!!!"
