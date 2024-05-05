@@ -35,6 +35,7 @@
 			"uppercase": (input) => input.toLocaleUpperCase(),
 			"lowercase": (input) => input.toLocaleLowerCase()
 		}
+		let copypastaResetter = null
 
 		/**
 		 * @template T
@@ -98,6 +99,12 @@
 			localStorage.setItem(id, val)
 		}
 
+		function createIconElement(name) {
+			const elem = document.createElement("i")
+			elem.className = `${name} icon`
+			return elem
+		}
+
 		function initializeCopypasta(inputRootElem, copypastaResultElem, copypastaText, inputdefs, pastaId) {
 			let twoLFElem = document.getElementById("copypasta_2lf")
 			let fragment = document.createDocumentFragment()
@@ -111,7 +118,7 @@
 				rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
 			}
 
-			inputdefs.forEach(input => {
+			for (const input of inputdefs) {
 				const div = document.createElement("div")
 				const label = document.createElement("label")
 				const placeholder = input.default ? ("Contoh: " + input.default) : input.description
@@ -164,7 +171,14 @@
 				div.appendChild(label)
 				div.appendChild(inputElem)
 				fragment.appendChild(div)
-			});
+			}
+
+			const resetParamButton = document.createElement("button")
+			resetParamButton.className = "ui red button"
+			resetParamButton.replaceChildren(createIconElement("undo alternate"), "Atur Ulang")
+			if (copypastaResetter != null)
+				resetParamButton.addEventListener("click", copypastaResetter)
+			fragment.appendChild(resetParamButton)
 
 			inputRootElem.replaceChildren(fragment)
 			rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
@@ -206,6 +220,17 @@
 					const copypasta = inverseMap[ev.target.value]
 					initializeCopypasta(copypastaInputRoot, copypastaResult, copypasta.text, copypasta.inputs, copypasta.id)
 				})
+
+				copypastaResetter = () => {
+					const selected = copypastaList.value
+					if (selected) {
+						const copypasta = inverseMap[selected]
+						for (const input of copypasta.inputs) {
+							localStorage.removeItem(`${selected}.${input.name}`)
+						}
+						initializeCopypasta(copypastaInputRoot, copypastaResult, copypasta.text, copypasta.inputs, copypasta.id)
+					}
+				}
 			}
 
 			pcall(() => $('.ui.dropdown').dropdown())
