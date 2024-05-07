@@ -6,10 +6,6 @@ inputs:
   - name: who2
     description: Nama Akrabnya?
     default: Tomoriru
-  - name: pasangan
-    description: Pasangan
-    choice: [cewe, cowo, istri, suami]
-    default: 3
 
 text: |
   {who:camelcase} adalah seiyuu yang sangat MENONJOL, bukan hanya MENONJOL sebagai seiyuu {who:camelcase} yang akrab
