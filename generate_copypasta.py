@@ -82,6 +82,7 @@ def main():
                 )
             )
 
+    copypastas.sort(key=lambda k: k.id)
     # JSONizie
     with open("copypasta.json", "w", encoding="UTF-8", newline="") as f:
         json.dump(list(map(dataclasses.asdict, copypastas)), f)
