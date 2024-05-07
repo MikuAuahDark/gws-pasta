@@ -1,0 +1,12 @@
+name: Bayangin dalam armor
+inputs:
+  - name: waifu
+    description: Nama Waifu Kamu
+    default: Firefly
+text: |
+  Bayangin bau di dalam armor nya {waifu:camelcase} setelah di pake tempur seharian, trs lu masuk di dalam nya niscaya
+  keringat dari seluruh tubuh {waifu:camelcase} akan menjadi satu dengan tubuhmu, lu bahkan bisa mandi pake keringat
+  {waifu:camelcase} karna di dalamnya sangat basah, dan baunya yg sangat khas remaja2 tobrut...lengket, asin, asam
+  semua menjadi satu
+
+  Argghh me when yes😔
