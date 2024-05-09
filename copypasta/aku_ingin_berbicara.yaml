@@ -1,0 +1,32 @@
+name: Aku Ingin Berbicara
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Firefly
+text: |
+  Dear {who:camelcase}.
+
+  Aku ingin berbicara denganmu tentang sesuatu yang penting bagiku. Setiap kali aku melihatmu, hatiku berdetak lebih
+  cepat dan pikiranku menjadi kacau. Kau seperti sebuah serangga kecil yang bersinar di kegelapan malam, memberikan
+  cahaya dan kehangatan dalam hidupku.
+
+  Setiap kali kau tersenyum, rasanya seperti dunia ini menjadi lebih cerah. Aku ingin kau tahu betapa berartinya
+  dirimu bagiku. Kau adalah sumber kebahagiaanku, dan aku bersyukur setiap hari karena telah mengenalimu.
+
+  Aku suka bagaimana kau memandang dunia dengan mata yang penuh harapan dan keajaiban. Kau menginspirasi aku untuk
+  menjadi lebih baik setiap hari, dan aku berjanji akan selalu mendukungmu dalam segala hal yang kau lakukan.
+
+  Mungkin ini terdengar klise, tapi aku merasa bahwa kau adalah bagian dari diriku yang hilang selama ini. Kau
+  melengkapi aku dengan cara yang tidak bisa dijelaskan dengan kata-kata.
+
+  Aku ingin menghabiskan lebih banyak waktu bersamamu, memahami siapa dirimu sebenarnya, dan membangun kenangan indah
+  bersama. Aku berharap kita bisa menjelajahi dunia bersama-sama, menemukan keindahan di setiap sudutnya.
+
+  Aku tidak tahu apakah perasaanku ini akan dibalas atau tidak, tapi aku harus mengungkapkannya. Aku tidak bisa terus
+  menyimpannya dalam hati dan menyembunyikannya dari dunia. Aku percaya bahwa kejujuran adalah kunci untuk menjaga
+  hubungan kita tetap kuat, apa pun yang terjadi.
+
+  Jadi, inilah aku, dengan hati terbuka, mengungkapkan perasaanku padamu. Aku tidak tahu apa yang akan terjadi
+  selanjutnya, tapi aku berharap dengan seluruh hatiku bahwa kita bisa menjalani perjalanan ini bersama-sama.
+
+  Terima kasih telah menjadi bagian dari hidupku, {who:camelcase}. Aku sangat berharga memilikimu di sisi saya.
