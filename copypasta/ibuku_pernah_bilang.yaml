@@ -1,0 +1,11 @@
+name: Dulu Ibuku Pernah Bilang
+inputs:
+  - name: waifu
+    description: Nama waifu kamu
+    default: Nijika
+
+text: |
+  Dulu ibuku pernah bilang, "Kamu gak usah mikirin pacar-pacaran! Kalau kamu rajin belajar, terus pas udah besar jadi orang pintar, nanti ada cewek cantik yang mau sama kamu!"
+
+
+  Aku sempat meragukan nasihat ibuku. Namun, beberapa tahun kemudian, setelah aku dewasa, aku menyadari bahwa ucapannya memang benar. Soalnya cewek anime yang bernama {waifu:camelcase} yang menjadi istriku cantik banget busettt.
