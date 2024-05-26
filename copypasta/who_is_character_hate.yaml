@@ -1,0 +1,46 @@
+name: Who is Character? (Hate)
+inputs:
+  - name: character
+    description: Nama karakter yang kamu benci
+    default: Character
+  - name: pronoun
+    description: Dia itu Cewe (She) atau Cowo (He)
+    choice: [he, she]
+    default: 2
+text: |
+  If {character:camelcase} thinks I disagree
+
+  if {character:camelcase} talk i ignore
+
+  If {character:camelcase} fails, I will judge {pronoun:camelcase}
+
+  If {character:camelcase} thinks, I despise {pronoun:camelcase}
+
+  If {character:camelcase} got thousand haters im one of them
+
+  If {character:camelcase} has only one hater im that hater
+
+  If it doesn't have haters, I don't exist
+
+  If the world is against {character:camelcase}, I am with the world
+
+  If the world is with {character:camelcase}, I am against the world
+
+
+  Who is {character:camelcase}?
+
+  In math, the problem
+
+  In Spanish, the error
+
+  In history, war
+
+  In geography, environmental disasters
+
+  In art, the lack of creativity
+
+  In PE, Sedentaryism
+
+  In science, polluting gases
+
+  In religion, the devil
