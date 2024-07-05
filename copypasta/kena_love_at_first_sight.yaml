@@ -1,0 +1,28 @@
+name: Kena Love At First Sight
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Shioriko Mifune
+
+text: |
+  ya mau bagaimana lagi aku juga udah kena Love at First Sight sama kamu. Awalnya aku ngeliat kamu cuman di dunia
+  internet ini, setiap hari aku melihat wajahmu hadir di timeline sosial mediaku. Hal ini membuat diriku bertekad
+  untuk menjemputmu di sana. 
+
+  Aku tau diriku emang tidak pantas, bahkan diriku di jauh untuk menggapaimu. Hanya saja aku sudah lelah untuk tidak
+  berusaha dan merelakanmu begitu saja. Maka dari itu aku berusaha untuk memposisikan diriku menjadi setara untukmu.
+  Setidaknya disaat aku bersamamu, aku tidak akan membuatmu malu disampingmu.
+
+  Berbagai hal sudah aku terjang. Aku menjelajahi dunia baru yang tergolong asing bagiku, aku berusaha untuk
+  memahamimu. Kupikir hal ini sudah cukup, ternyata aku harus berusaha untuk mencapai di titik akhir dari sebuah
+  cerita. Memperbaiki diriku, meningkatkan kualitas diriku sampai akhirnya aku bertemu denganmu.
+
+  Disaat itu, aku tersesat dalam tempat tersebut. Namun aku akhirnya bertemu denganmu, seperti takdir dalam naskah
+  tersebut. Mengajakmu berbicara, bersenang-senang dan berkeliling di tempat tersebut membuat diriku merasa bersyukur
+  karena telah hidup sampai saat ini.
+
+  Walau dalam naskah kamu ditakdirkan untuk berpisah denganku selama tiga kali, aku berharap yang kedua ini menjadi
+  yang terakhir bagiku.
+
+
+  Aku menyukaimu, {who:camelcase}
