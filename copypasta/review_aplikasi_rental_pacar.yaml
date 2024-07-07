@@ -1,0 +1,15 @@
+name: Review Aplikasi Rental Pacar
+inputs:
+  - name: pacar
+    description: Nama Pacar Rental kamu
+    default: Aponia
+text: |
+  Pas gw lagi liat² playstore eh gw ngeliat ada aplikasi rental pacar, rating nya juga bagus² tuh. Karena kebetulan gw belum punya pacar + jarang deket sama cewek, gw cobain tuh aplikasi. Pas gw download eh ternyata banyak juga pilihan ceweknya. Nah ada 1 cewek yang narik perhatian gw nih namanya {pacar:camelcase} tapi ratingnya 0. yaudah sih gw gas aja,niat gw sebenarnya buat bantu naikin rating dia.
+
+  gw chat {pacar:camelcase}, kami atur jadwal dan tempat pertemuan kami. Gw duduk dikursi mall nungguin dia, ternyata udah sejam gak ada kabar si {pacar:camelcase} gw chat kagak dibales. Gw ngerasa sedih yaudahlah pulang aja gw, gw baru mau berdiri tepat didepan gw ada tante² cantik, imut dan bohay nunduk ke arah gw "kamu yang ngerental aku hah ?". Gw gugup terus badan gemeter sekalian terpana dengan kecantikan {pacar:camelcase} "i-iya Tan a aku ya yang rental". 
+
+  {pacar:camelcase} tersenyum sinis "gak nyangka yang ngerental aku adalah sebuah brondong haha, maaf ya aku telat sejam". Gw ngangguk "gak apa Tan, ini kebetulan rental pacar pertama saya, Tante boleh bimbing gak kita mau ngapain aja nanti saya yang bayar". {pacar:camelcase} tatap gw sambil menggigit bibir bawahnya lalu memeluk tanganku dan berbisik di telingaku "jangan panggil Tante dong, panggil aja aku sayang hehe" pipi gw memerah mendengar suaranya
+
+  Kami jalan² di mall sambil gandengan tangan tuh, pas makan direstoran gw disuapin sama {pacar:camelcase}, kami karaoke bareng suara {pacar:camelcase} indah banget, kami bermain di Timezone sampe capek lalu untuk diakhir rental gw beliin baju untuk {pacar:camelcase} "uhm sayang, ini hadiah dari aku, makasih ya udah nemenin aku, jadi pacarku walaupun sebentar tapi aku menikmati ini".
+
+  {pacar:camelcase} senyum lalu menarik tanganku ke hotel, {pacar:camelcase} ngedorong gw ke kasur lalu duduk di atas perutku.
