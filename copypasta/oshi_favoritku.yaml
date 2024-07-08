@@ -1,0 +1,22 @@
+name: Oshi Favoritku
+inputs:
+  - name: oshi
+    description: Nama Oshi Favorit Kamu
+    default: Mikeneko
+
+text: |
+  Ada yang meremehkannya, tapi aku mendukungnya
+
+  Ada yang acuh dengannya, tapi aku peduli padanya
+
+  Ada yang menghinanya, tapi aku menyanjungnya
+
+  Ada yang menjadi hatersnya, tapi aku memilih menjadi fansnya
+
+  Ada yang mencoba melawannya, maka aku akan menjadi ksatrianya
+
+  Ada yang bilang, vtuber itu janda bukan? Maka akan kutandain akun kalian!
+
+  Ada yang benci karena perilakunya, meski begitu aku mencintai dirinya
+
+  {oshi:camelcase} adalah Oshi Favoritku, bukan! Dia adalah calon istriku🥰
