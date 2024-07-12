@@ -1,0 +1,18 @@
+name: Dunia Bakal Hancur
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Risa
+
+text: |
+  Aku ngasih tau {who:camelcase} kalau aku ama dia kagak ngedate dunia bakal hancur.
+
+  Terus dia panik, takut kalau dunia bakal hancur.
+
+  Ku bilang "ayo cepet sini"
+
+  {who:camelcase} bales "iya iya bentar, Sayang"
+  Akhirnya Aku sama {who:camelcase} ngedate bareng. 🥰
+
+
+  Oiya ini fotonya waktu kita ngedate
