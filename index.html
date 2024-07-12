@@ -26,7 +26,7 @@
 				for (let i = 0; i < splitted.length; i++) {
 					const s = splitted[i]
 					if (s.length > 0) {
-						splitted[i] = s[0].toLocaleUpperCase() + s.substring(1);
+						splitted[i] = s[0].toLocaleUpperCase() + s.substring(1).toLocaleLowerCase();
 					}
 				}
 
@@ -36,6 +36,7 @@
 			"lowercase": (input) => input.toLocaleLowerCase()
 		}
 		let copypastaResetter = null
+		let ignoreTransform = false
 
 		/**
 		 * @template T
@@ -64,7 +65,7 @@
 			const newText = originalText.replaceAll(/{([\w_]+:?\w*)}/g, (match, p1) => {
 				const nameAndTransform = p1.split(":", 2)
 				const inputName = nameAndTransform[0]
-				const transformFunc = TRANSFORMERS[nameAndTransform[1] ?? "none"] ?? TRANSFORMERS.none
+				const transformFunc = ignoreTransform ? TRANSFORMERS.none : (TRANSFORMERS[(nameAndTransform[1] ?? "none").toLocaleLowerCase()] ?? TRANSFORMERS.none)
 
 				if (inputs[inputName] === undefined) {
 					return "{" + p1 + "}"
@@ -109,8 +110,13 @@
 			let twoLFElem = document.getElementById("copypasta_2lf")
 			let fragment = document.createDocumentFragment()
 			let inputValues = {}
+			const ignoreTransformCheckbox = document.getElementById("ignore_transformer")
 
 			twoLFElem.onchange = () => rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+			ignoreTransformCheckbox.onchange = () => {
+				ignoreTransform = ignoreTransformCheckbox.checked
+				rebuildCopypastaText(copypastaResultElem, copypastaText, inputValues, twoLFElem.checked)
+			}
 
 			function inputOnChange(ev) {
 				inputValues[ev.target.id] = ev.target.value
@@ -186,10 +192,10 @@
 		}
 
 		ready(async () => {
-			let copypastaList = document.getElementById("copypasta_list")
-			let copypastaResult = document.getElementById("copypasta_result")
-			let copypastaInputRoot = document.getElementById("copypasta_inputs")
-			let copypastaCopyButton = document.getElementById("copypasta_copy")
+			const copypastaList = document.getElementById("copypasta_list")
+			const copypastaResult = document.getElementById("copypasta_result")
+			const copypastaInputRoot = document.getElementById("copypasta_inputs")
+			const copypastaCopyButton = document.getElementById("copypasta_copy")
 			let jsondata = null
 
 			copypastaResult.value = ""
@@ -233,6 +239,8 @@
 				}
 			}
 
+			document.getElementById("ignore_transformer").checked = ignoreTransform
+
 			pcall(() => $('.ui.dropdown').dropdown())
 		})
 	</script>
@@ -247,6 +255,10 @@
 		<div class="ui red segment">
 			<h2 class="ui header">Parameter</h2>
 			<div id="copypasta_inputs" class="ui form">
+			</div>
+			<div class="ui checkbox" style="margin-top:1em">
+				<input id="ignore_transformer" type="checkbox">
+				<label>Abaikan koreksi kapitalisasi</label>
 			</div>
 		</div>
 		<div class="ui form">
