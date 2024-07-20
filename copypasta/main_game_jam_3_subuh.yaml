@@ -1,0 +1,14 @@
+name: Main Game Jam 3 Subuh
+inputs:
+  - name: game
+    description: Game apa yang sedang kamu mainkan?
+    default: honkai impact
+  - name: hairColor
+    description: Warna rambut karakter istrimu
+    default: pink
+  - name: character
+    description: Nama karakter istrimu
+    default: Elysia
+
+text: |
+  Pas gw lagi main {game} jam 3 subuh, tiba² dikamar mandi ada suara shower hidup. Gw kaget badan gw juga gemeteran. Gw ambil raket nyamuk, pas gw buka pintu toilet. ada sosok wanita cantik berambut {hairColor} dengan mata indahnya sedang mandi, dia adalah {character:camelcase}. dia liat ke arah gw dengan pipi merahnya "KYAAAGGGHHH". gw kaget, gw tutup pintunya terus gw buka lagi. "KYAAAGGGH DASAR CABUUUULLLL" {character:camelcase} berusaha menutup tubuhnya dengan tangan. Gw masuk ke kamar mandi, gw kunci pintu nya dari dalem, gw keluarin senyuman cabul gw. {character:camelcase} ambil pompa WC "jangan dekat² sialan, atau gw pukul lu pake ini". Gw deketin {character:camelcase} "aku gak apa-apain kamu kok {character:camelcase} hehe". {character:camelcase} mau mukul gw tiba² dia kepeleset terus ngedorong gw sampe jatuh ke lantai. Pipi {character:camelcase} memerah ketika badan kami bersentuhan "kamu gak papa ?, maaf ya". Badan gw ngerasain kekenyalan buah {character:camelcase}, kaki gw ngerasain lembutnya serabi lempit {character:camelcase}. Gw senyum² ke {character:camelcase} "aku gak apa kok sayang". Pipi {character:camelcase} memerah menyadari tubuhnya bersentuhan dengan gw lalu dia bisik ke telinga gw "dasar suami cabul, kalau kamu lagi pengen kan bisa tunggu aku dikasur, Jangan kagetin aku pas di wc dong" tiba² {character:camelcase} cium bibir gw, dia tarik gw ke kasur lalu kami berhubungan suami istri sampai pagi
