@@ -28,7 +28,7 @@ inputs:
 # Teks copypasta. Variabel yang ada dalam "inputs" harus diapit dengan kurung kurawal
 # yang kemudian akan dilakukan interpolasi string dengan variabel yang sudah didefinisikan.
 #
-# Format interpolasi string adalah "{<nama variable>[:<transformasi>]}"
+# Format interpolasi string adalah "{<nama variable>[:<transformasi>][:<pemangkasan>]}"
 # * <nama variable> - Nama variable yang sudah didefinisikan pada "inputs"
 # * <transformasi> - Transformasi input. Nilai yang memungkinkan:
 #                    * none - Tidak dilakukan transformasi input.
@@ -37,6 +37,8 @@ inputs:
 #                    * lowercase - Semua kata diubah jadi huruf kecil.
 #                    Jika opsi "transform" bukan salah 1 dari diatas atau tidak dimasukkan,
 #                    maka diasumsikan opsi "none".
+# * <pemangkasan> - Input angka untuk memangkas beberapa huruf dari depan (trim/substring).
+#                   Jika tidak ada, maka string tidak akan dipangkas.
 #
 # Catatan: Memilai paragraf baru harus menggunakan 2 atau lebih baris baru!
 # Berikut contoh teks cerita Masked Fools dari Honkai Star Rail
