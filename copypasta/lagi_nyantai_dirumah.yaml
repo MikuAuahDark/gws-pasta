@@ -1,0 +1,57 @@
+name: Lagi Nyantai Dirumah
+
+inputs:
+  - name: girl
+    description: Wanita yang mendatangi rumahmu
+    default: Fuyuko
+  - name: hairColor
+    description: Warna rambut wanita tersebut
+    default: hitam
+  - name: chestSize
+    description: Ukuran dada wanita tersebut
+    choice: [besar, sedang, kecil]
+    default: 1
+
+text: |
+  Lagi nyantai dirumah tiba tiba ada suara ketok pintu.
+  Siapa tuh kira kira?
+  Diriku memutuskan untuk membuka pintu.
+  Dan ada wanita dewasa berambut {hairColor:lowercase} dan berdada {chestSize}😨😨.
+
+
+  Aku tidak tahu apa yang terjadi dan mengapa wanita itu mendatangi rumahku.
+  Lalu dia pun mulai berbicara.
+
+
+  "Kamu yang dulu pernah menolongku kan"
+
+
+  Seketika aku terkejut, aku lupa bahwa aku dulu pernah menyelamatkan seorang gadis kecil.
+
+
+  Lalu aku pun menjawab
+  "Ah, iya kak.."
+
+  
+  Karena tampangnya dewasa aku tidak sengaja memanggilnya kak.
+
+
+  Lalu dia menarikku kedalam rumahku😭😭
+
+
+  Dia mendorongku ke kasur dan membugili diri, aku terkejut serentak, aku meminta pertolongan sambil berteriak tetapi tidak ada yang mendengar
+
+
+  "TOLOOONNGG TOOLONGGGG AAAAAAA"
+
+
+  Seketika aku digenjot tanpa ampun, aku kesakitan😭😭😭.
+
+
+  Aku terus digenjot oleh wanita dewasa itu, sampai akhirnya 5 jam kemudian aku tidak sanggup berdiri dan sangat lelah karena di genjot.
+
+
+  Lalu wanita dewasa itupun berkata bahwa namanya adalah {girl:camelcase} 
+
+  
+  {girl:uppercase} KENAPAA KAMU MENGGENJOT KU, KAN KITA BISA MEMULAI SEMUA NYA DARI KENALAN DAN KEMUDIAN KENCAN DULU😭😭
