@@ -1,0 +1,28 @@
+name: Yang Gw Kecewakan dari Kompeni
+inputs:
+  - name: kompeni
+    description: Nama kompeni
+    default: NAMCO
+  - name: waifu
+    description: Nama waifu
+    default: Tenka
+
+text: |
+  yang gw kecewakan dari {kompeni:uppercase} ini adalah...
+
+
+  kenapa {waifu:camelcase} itu tidak nyata?
+  meskipun gw hanya melihatnya dari kamar, kenapa dia hanya ada sebatas didepan layar kaca saja?
+  gw sudah mempersiapkan hati dan jiwa gw untuk menyambut kedatangan {waifu:camelcase}.
+  namun {waifu:camelcase} tidak bisa hadir disisi gw dan memberikan pelukan hangat pada jiwa gw yang kesepian.
+  {waifu:camelcase} hanya bisa tersenyum dan berterima kasih kepada gw karena sudah berusaha untuk mendapatkannya.
+
+
+  gw merasa ini gk adil banget.
+  kenapa {kompeni:uppercase} membuat karakter yang memberikan perasaan seperti ini kedalam hati gw?
+  gw minta kepada {kompeni:uppercase} untuk mempertanggungjawabkan perbuatannya, karena telah menghadirkan karakter seperti {waifu:camelcase} kedalam hidup gw 😡😭
+
+
+  meskipun kamu tidak bisa hadir disisiku
+  ku selalu berdoa agar kamu selalu hadir didalam mimpiku
+  😭😭😭
