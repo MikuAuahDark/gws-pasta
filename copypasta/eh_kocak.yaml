@@ -1,0 +1,9 @@
+name: EH KOCAK
+inputs:
+  - name: hati
+    description: Apa yang ada dihatimu?
+    default: Hati
+
+text: |
+  EH KOCAK...COBA LU SAYAT DADA GUA SAMPE BERDARAH.. DAN LU LIAT DI DADA GUA ADA APAAN...ADA {hati:uppercase}
+  BOS...ITU ARTINYA GUA CINTA {hati:uppercase} ... {hati:uppercase} TILL I DIE...PAHAM LU...
