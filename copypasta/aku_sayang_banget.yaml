@@ -1,0 +1,12 @@
+name: Aku tuh sayang banget sama dia
+
+inputs:
+  - name: who
+    description: Siapa?
+    default: Alya
+  - name: who_fullname
+    description: Nama panjangnya?
+    default: Alisa Mikhailovna Kujou
+
+text: |
+  aku tuh sayang banget sama {who:camelcase}, soalnya dia cantik banget, bikin meleleh hatiku jatuh cinta woii mwuamwuaah pokoknya aku sudah gak denial lagi gaada yang bisa gantiin posisinya di hatiku nomor 1 selamanya pokoknya aku cinta mati sama {who:camelcase} muach muach muach {who_fullname:camelcase} sayangku cintaku kasihku my love my soulmate my other half my everything my soul your beats I'd do anything for ya ❤💕🥺🤗🤗💞💖🌹🌹🌹

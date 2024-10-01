@@ -1,0 +1,23 @@
+name: Dia hamil
+
+inputs:
+  - name: who
+    description: Siapa?
+    default: Fuyuko Mayuzumi
+  - name: month
+    description: Kapan?
+    choice: [januari, februari, maret, april, mei, juni, juli, agustus, september, oktober, november, desember]
+    default: 6
+
+text: |
+  delete soon 🥲
+
+  Jujur gw ngetik ini aja masih gemeteran banget 😭
+
+  Jadi bulan {month} kemarin ada cewe jalan sama gw Banyak sih. Dia cantik sih memang, kita pegangan tangan dan gitulah pokoknya sampai ke hotel.
+  
+  Terus tadi tiba-tiba pas nyampe dirumah, gw di chat ngasih pap cek kalau dia positif. Abis itu gw kaget dong kalo ternyata dia itu hamil .... iya kita kebablasan.
+  
+  Sekarang gw bingung banget mau gimana, gw masih belum siap buat jadi papa muda, apalagi di depan ortu gw... Bingung banget ngomong nya gimana ini...
+  
+  Btw nama cewenya {who:camelcase}. please bantu gw gimana caranya biar kita menikah langsung hari ini. 🙏
