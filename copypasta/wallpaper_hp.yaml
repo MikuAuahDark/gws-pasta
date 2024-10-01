@@ -1,0 +1,34 @@
+name: Wallpaper HP
+
+inputs:
+  - name: who
+    description: Siapa?
+    default: Zhezhi
+
+text: |
+  >*pake fotonya {who:camelcase} buat wallpaper*
+
+  >*hp gw jatuh dan rusak*
+
+  >*ke toko service center buat benerin hp gw*
+
+  “Mbak, bisa service hp saya?”
+
+  “Bisa.”
+
+  >*Mulai dibenerin hp gw*
+
+  “Mas, ini fotonya siapa di wallpaper?”
+
+  “Ini istri saya.”
+
+  “Jadi aku itu istrimu?”
+
+  >Lanjut lepas maskernya*
+
+  “{who:camelcase:1}-{who:camelcase}?!”
+
+  “Iya sayang?”
+
+  Pelajaran yang didapatkan: gw cinta banget sama {who:camelcase} 🥰
+  
