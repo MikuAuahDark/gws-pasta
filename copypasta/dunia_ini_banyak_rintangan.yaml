@@ -13,7 +13,7 @@ inputs:
   - name: waifu3
     description: Waifu Jago Masak
     default: Suzuki Hana atau Suzuhana Moe
-  - name: waifu3
+  - name: waifu4
     description: Waifu Anti Mager
     default: Amaki Sally
 
