@@ -1,0 +1,46 @@
+name: Dunia ini Banyak Rintangan
+
+inputs:
+  - name: waifu0
+    description: Waifu Imut
+    default: Sakura Ui
+  - name: waifu1
+    description: Waifu Penyayang
+    default: Kuramaru atau Shirosawa Kanae
+  - name: waifu2
+    description: Waifu Agar Tidak Monoton
+    default: Ikaruga Luca
+  - name: waifu3
+    description: Waifu Jago Masak
+    default: Suzuki Hana atau Suzuhana Moe
+  - name: waifu3
+    description: Waifu Anti Mager
+    default: Amaki Sally
+
+text: |
+  Dunia ini banyak rintangan dan sukar untuk menghadapi suatu permasalahan. 
+
+  Ada kalanya dimana kita dihadapkan dengan berbagai macam pilihan dan juga aspek tertentu. Oleh karenanya, hal ini semakin membuat kita akan berpikir ulang terhadap jalan yang kita ambil dan mengevaluasi hal itu kembali. 
+  Sebagai contoh kriteria nyatanya: 
+
+  .
+
+  .
+
+  .
+
+  .
+
+  .
+
+  - Aku ingin mempunyai istri seimut {waifu0:camelcase}
+
+  - Tapi dilain sisi aku mau istri penyayang seperti layaknya {waifu1:camelcase}
+
+  - Tapi agar hidup tidak monoton, aku bisa menginginkan juga {waifu2:camelcase} untuk mewarnai kehidupan berumah tanggaku nanti bersamanya
+
+  - Aku juga ingin mempunyai istri yang pandai memasak seperti {waifu3:camelcase}
+
+  - Dengan tipe diriku yang sering mager, aku juga butuh sosok {waifu4:camelcase} agar kesehatan dalam keluarga termasuk dirinya juga sehat san bugar.
+
+  Hidup itu terlalu banyak pilihan, dan bikin membingungkan. Fr.
