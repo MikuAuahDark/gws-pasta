@@ -1,0 +1,22 @@
+name: KALAU ADA FITUR
+inputs:
+  - name: game
+    description: Nama Game
+    default: Genshin
+  - name: waifu1
+    description: Nama Waifu Pertama
+    default: Citlali
+  - name: waifu2
+    description: Nama Waifu Kedua
+    default: Damslette
+  - name: waifu3
+    description: Nama Waifu Ketiga
+    default: Mualani
+  - name: waifu4
+    description: Nama Waifu Keempat
+    default: Skirk
+
+text: |
+  KALAU {game:uppercase} ADA FITUR HAMIL MUNGKIN CHAR PERTAMA YANG GW HAMILIN YAITU {waifu1:uppercase}, YANG KEDUA
+  {waifu2:uppercase}, YANG KETIGA UDAH PASTI {waifu3:uppercase}, NAMBAH 1 LAGI DEH YANG KEEMPAT BUBUB
+  {waifu4:uppercase}.
