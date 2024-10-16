@@ -37,7 +37,7 @@ inputs:
 #                    * lowercase - Semua kata diubah jadi huruf kecil.
 #                    Jika opsi "transform" bukan salah 1 dari diatas atau tidak dimasukkan,
 #                    maka diasumsikan opsi "none".
-# * <pemangkasan> - Input angka untuk memangkas beberapa huruf dari depan (trim/substring).
+# * <pemangkasan> - Input angka untuk memangkas beberapa huruf dari depan jika positif, atau dari belakang jika negatif (trim/substring).
 #                   Jika tidak ada, maka string tidak akan dipangkas.
 #
 # Catatan: Memilai paragraf baru harus menggunakan 2 atau lebih baris baru!

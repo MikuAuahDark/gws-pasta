@@ -62,11 +62,21 @@
 		}
 
 		function rebuildCopypastaText(copypastaResultElem, originalText, inputs, twolf) {
-			const newText = originalText.replaceAll(/{([\w_]+:?\w*:?\d*)}/g, (match, p1) => {
+			const newText = originalText.replaceAll(/{([\w_]+:?\w*:?-?\d*)}/g, (match, p1) => {
 				const nameAndTransform = p1.split(":", 3)
 				const inputName = nameAndTransform[0]
 				const transformFunc = ignoreTransform ? TRANSFORMERS.none : (TRANSFORMERS[(nameAndTransform[1] ?? "none").toLocaleLowerCase()] ?? TRANSFORMERS.none)
-				const trim = (value) => nameAndTransform[2] ? value.substring(0, nameAndTransform[2]) : value;
+				const trim = (value) => {
+					if (!nameAndTransform[2]) {
+						return value
+					}
+
+					const trimNumber = parseInt(nameAndTransform[2])
+
+					return trimNumber > 0
+						? value.substring(0, trimNumber) // Trim from the front
+						: value.substring(value.length + trimNumber) // Trim from the back 
+				}
 
 				if (inputs[inputName] === undefined) {
 					return "{" + p1 + "}"

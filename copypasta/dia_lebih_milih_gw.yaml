@@ -1,0 +1,12 @@
+name: Dia lebih milih gw
+
+inputs:
+  - name: who
+    description: Siapa dia?
+    default: Kisaki
+  - name: you
+    description: Nama kamu siapa?
+    default: Sajjad
+
+text: |
+  GA. dia lebih milih gw. {who:camelcase} lebih milih gw! Cinta gw sama {who:camelcase} itu bagaikan benang merah yang selalu kehubung, {who:camelcase} ngeliat gw. DIA LEBIH CINTA AMA GW!! {who:camelcase}.. i love you.. kamu nikah sama aku {who:camelcase}?? "iya {you:camelcase}-kun! aku mau" AHHHH SYUKUR DIA LEBIH MEMILIHKUUU I LOVE YOU {who:uppercase}{who:uppercase:-1}{who:uppercase:-1}!! ❤️❤️ dia bahkan punya perasaan cinta sama gw, gw berjanji bakal jadi suami yang baik buat {who:camelcase}, hubungan gw sama {who:camelcase} bakal jadi hubungan paling romantis dalam alur hidup yang ada di dunia, CINTAI AKU {who:uppercase}{who:uppercase:-1}{who:uppercase:-1} AHHHHHHH kamu cinta sama aku kan? peluk aku {who:camelcase} pls.. AHHH YA SEPERTI ITU {who:uppercase} PELUK AKU YANG LEBIH ERAT LAGIII ❤️❤️❤️.. sekarang kamu mau cium aku kan {who:camelcase}?.. Ehh yah.. kok kamu malu si 😦 yaudah deh setidaknya kita saling cinta satu sama lain ya! 🥰❤️
