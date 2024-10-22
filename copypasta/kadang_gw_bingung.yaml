@@ -1,0 +1,31 @@
+name: Kadang gw bingung
+inputs:
+  - name: jenis
+    description: Cewe atau cowo?
+    choice: [Cewek, Cowok]
+  - name: makan1
+    description: Hobi makan apa?
+    default: cake dan cookies
+  - name: makan2
+    description: Doyan makan apa?
+    default: Makaroni & nggak mau nasi
+
+text: |
+  Kadang gw bingung, kok bisa punya {jenis:lowercase} kaya dia ini.
+
+  Hampir tiap hari juga gw bilang ke dia "kok bisa ya punya {jenis:lowercase} kayak kamu" jawaban dia selalu
+  melucu 😂 wkwk
+
+  Selalu mensupport, gapernah nuntut minta ini-itu, nerimaan banget orangnya, kalo di inget² waktu awal kenal rada
+  kocak juga, modusin niat ngajak pulang malah nyungsep berdua pas motoran 😭 itu awal banget ketemu co wkwkwk gak
+  kerasa udah 1 tahun lalu.. sikapnya masih sama terus dari dulu..
+
+  Berisik nyanyi² pas dimotor
+
+  Sering gigitin pundak gw pas dimotor jir 😂 meresahkan
+
+  Makan enak geleng kanan, geleng kiri
+
+  Hobi {makan1}
+
+  DOYAN {makan2:uppercase} aowowoowowk untung sama² doyan
