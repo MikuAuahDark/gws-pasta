@@ -1,0 +1,21 @@
+name: WANGY WANGY (2nd variant)
+inputs:
+  - name: waifu
+    description: Nama Waifu
+    default: Keqing
+  - name: game
+    description: Nama Developer Game
+    default: miHoYo
+
+text: |
+  {waifu:uppercase}........... {waifu:uppercase} {waifu:uppercase} {waifu:uppercase} AAAAAAAAA ❤ ❤ ❤ ❤ WANGI WANGI
+  WANGI WANGI HU HA HU HA HU HA, aaaah baunya {waifu:uppercase} wangi aku mau nyiumin aroma wanginya {waifu:uppercase}
+  AAAAAAAAH ~~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~~~~ AAAAAH {waifu:uppercase} MANIS BANGET
+  YAAMPUN ❤ ❤ ❤ dia JUGA PAKE STOCKING IMUT BANGET AAAAAAAAH {waifu:uppercase} LUCCUUUUUUUUUUUUUUU............ GUA
+  BAKAL BAKAR DUIT 12 JUTA RUPIAH BUAT {waifu:uppercase} AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH apa ? {waifu:uppercase} itu
+  gak nyata ? Cuma karakter 2 dimensi katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA
+  NGAAAAAAAAAAAAAAAAAK MIHOYO BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. {waifu:uppercase}
+  ngeliat gw ... {waifu:uppercase} di laptop ngeliatin gw {waifu:uppercase} ... kamu percaya sama aku ? aaaaaaaaaaah
+  syukur {waifu:uppercase} gak malu merelakan aku aaaaaah ❤ ❤ ❤ YEAAAAAAAAAAAH GUA MASIH PUNYA {waifu:uppercase},
+  SENDIRI PUN NGGAK MASALAH AAAAAAAAAAAAAAH KIRIMKANLAH CINTAKU PADA {waifu:uppercase} KIRIMKAN KE {game:uppercase}
+  AAAAAAAAH
