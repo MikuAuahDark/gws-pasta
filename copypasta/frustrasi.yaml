@@ -1,0 +1,10 @@
+name: Frustrasi Banget
+inputs:
+  - name: waifu
+    description: Nama Waifu
+    default: Mafuyu
+
+text: |
+  Gimana ya aku frustasi banget, aku stress banget memikirkan berbagai cara biar cinta aku ga terhalang apapun soalnya
+  aku secinta itu sama pacar aku {waifu:camelcase}. Pengen rasanya aku nikahin sekarang juga apalagi pas liat dia
+  senyum ke aku kayak sekarang ini. Ah cantik banget, sayangku, cintaku, lofyu.
