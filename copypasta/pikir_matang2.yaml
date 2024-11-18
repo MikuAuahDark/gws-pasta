@@ -1,0 +1,10 @@
+name: Setelah Gw Pikir Matang-Matang
+inputs:
+  - name: waifu
+    description: Nama Oshi atau Waufi
+    default: Iwami Manaka
+
+text: |
+  Setelah gw pikir matang-matang, emang nonton idol di usia gw yg udah bukan remaja lagi itu gak baik, dan gw udah
+  harus serius menentukan pilihan hidup. Banyak yg nyuruh gw berhenti. Makasih buat kenangannya, gw udah memutuskan
+  buat stop hype idol dan fokus mencari nafkah untuk nikahin {waifu:camelcase} 💍🥰
