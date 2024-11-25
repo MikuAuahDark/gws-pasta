@@ -1,0 +1,19 @@
+name: Belakangan Ini (2nd variant)
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Navia
+  - name: ortu
+    description: Orang Tua
+    default: emak
+
+text: |
+  jadi gue belakangan ini udah punya pacar, tapi gue diem2 aja karena gue ya agak ga pede aja kan buat buka2an wkwk.
+  nah, jadi tadi tuh gue lagi ngobrol kan ama pacar gue, eh tiba2 ditelpon sama {ortu} gue. ya, gue panik dong, karena
+  gue gapernah bilang apa2 ke {ortu} soal ini. 
+
+  akhirnya gue beraniin diri buat ngungkapin ini, kalo gue udah 2 tahun jalan sama dia. dia pun udah setuju buat
+  dikasih tau soal ini, katanya pengen ketemu juga ama ortu gue.
+
+  yaudah, gue VC lah bertiga ama {ortu} gue, dan {ortu} gue kaget gue bisa dapet cewek sebaik, sepenyayang dan secantik
+  ini. makin sayang deh sama {who:camelcase} 🥰
