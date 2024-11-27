@@ -28,10 +28,12 @@ jobs:
     - name: Generate Copypasta JSON
       run: venv/bin/python generate_copypasta.py
     - name: Copy Needed Files
+      env:
+        REPOSITORY: ${{ github.server_url }}/${{ github.repository }}
       run: |
         set -e
         mkdir _site
-        cp index.html _site/index.html
+        venv/bin/python write_commit.py index.html $REPOSITORY _site/index.html
         cp copypasta.json _site/copypasta.json
     - name: GitHub Pages Artifact
       uses: actions/upload-pages-artifact@v3
