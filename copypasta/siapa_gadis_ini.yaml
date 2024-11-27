@@ -1,0 +1,29 @@
+name: Siapa Gadis Ini?
+inputs:
+  - name: waifu
+    description: Nama Waifu
+    default: Rie Takahashi
+
+text: |
+  "Ayah! Ayah! Siapa gadis ini?"
+
+  "Dari mana kamu mendapatkan ini, Nak?"
+
+  "Aku melihatnya di buku favoritmu. Itu terpotong di halaman-halamannya. Siapa dia?" dia bertanya, matanya penuh rasa
+  ingin tahu.
+
+  Aku tersenyum. "Dia adalah cinta terbesar ayahmu."
+
+  "Benarkah? Siapa namanya?" dia bertanya lagi, sekarang, penuh kegembiraan.
+
+  "{waifu:camelcase}."
+
+  Dari kegembiraan, matanya menunjukkan emosi baru- keterkejutan.
+
+  "Itu ibu?!" serunya.
+
+  Tiba-tiba, aku mendengar suara tawa pelan di depan pintu. Sebuah tangan besar namun lembut menutupi kepala anakku,
+  mengacak-acak rambutnya.
+
+  "Benar. Itu aku ketika aku masih muda. Cantik, bukan?" Kata {waifu:camelcase}, masih terkekeh melihat ekspresi kaget
+  anak kami.

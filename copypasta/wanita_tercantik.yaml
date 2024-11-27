@@ -1,0 +1,17 @@
+name: Wanita Tercantik
+inputs:
+  - name: waifu
+    description: Nama Waifu
+    default: Reona
+
+text: |
+  {waifu:camelcase}, kamu tau gak, wanita tercantik setelah ibuku siapa?
+
+  Yaitu kamu, {waifu:camelcase}. Kamu sadar gak seberapa besar keinginan aku buat hidup bareng sama kamu?
+
+  Mungkin saking besarnya aku gak bisa ngedeskripsiin rasa yang aku miliki ke kamu. Aku ingin banget kita hidup
+  bersama, punya keluarga yang bahagia, bisa memeluk tubuh kamu dan memegang tangan kamu yang lembut. Kenapa sih aku
+  harus kenal sama kamu?
+
+  Btw yang harus kamu tau, aku cinta banget sama kamu. Maafin aku ya jika manusia yang gak sempurna kayak aku jatuh
+  cinta sama bidadari yang sempurna kayak kamu🥰🥰💞💕
