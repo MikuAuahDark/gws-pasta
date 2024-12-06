@@ -1,0 +1,28 @@
+name: Setiap Hari Ku Buka Apps
+inputs:
+  - name: app
+    description: Nama Aplikasi
+    default: Blue Archive
+  - name: waifu
+    description: Nama Waifu
+    default: Asuna
+
+text: |
+  Setiap hari ku buka apps {app} hanya untuk mendapat sapaan pagi dari Istri Tercintaku dengan pakaian Meidonya dan
+  wajah cerianya yang nuckul dan membahagiakan umat manusia
+
+  "Selamat pagi, {waifu:camelcase} Sayangku"
+
+  Sapaanku yang tidak mungkin dibalas tapi aku mengerti itu hanya bisa ku balas lagi dengan tap tap badannya yang
+  empuk dan jiggly
+
+  "master! Hayakuu~"*
+
+  intinya ngomongin soal mission*
+
+  *nosebleed of the day, get!*
+
+  aku ga heran istriku paling banyak fanartnya di dalam fanbasenya sendiri
+
+  hari menjadi gelap ketika aku uninstall aplikasi itu karena akan diperhatikan oleh ortu dan dan dan kesimpulannya
+  kalau mau punya energi hidup main {app} guys

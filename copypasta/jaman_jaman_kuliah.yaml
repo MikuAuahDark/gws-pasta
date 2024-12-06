@@ -1,0 +1,21 @@
+name: Jaman-Jaman Kuliah
+inputs:
+  - name: waifu
+    description: Nama Waifu/Husbando
+    default: Anya Melfissa
+
+text: |
+  Dulu tuh pernah pas jaman-jaman kuliah, gw kan kalo nongkrong selalu di Indomart deket kampus tu. Sering banget kan
+  ada pertukaran pelajar gitu di kampus gue, mereka demennya jajan disana daripada di kantin soalnya kantin tuh suka
+  dipenuhi senior jadi agak intimidating gimana gitu.
+
+  Terus suatu hari pas malem, gw ngidem makan onigiri Indomart. Akhirnya gw motoran lah ke kesana trus beli onigiri
+  tuna mayo.
+
+  Waktu gw mau ambil onigirinya, tangan gw ga sengaja nyentuh tangan cewek yang mau ngambil onigiri itu juga. "Ah,
+  maaf." Dia minta maaf tapi aksennya kaya orang overseas, gw pikir ohhh palingan mahasiswa pertukaran pelajar di
+  kampus gw. 
+
+  Tapi pas gw menoleh, gw kaget banget. "Lho, {waifu:camelcase}?"
+
+  Lalu sejak saat itu kita hidup bahagia sampai sekarang 🥰
