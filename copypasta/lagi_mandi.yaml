@@ -1,0 +1,23 @@
+name: Lagi mandi
+
+inputs:
+  - name: who
+    description: Siapa yang lagi mandi?
+    default: Silver Wolf
+
+text: |
+  Aku : lagi dimana ?🫥
+
+  {who:camelcase} : lagi mandi.😶‍🌫️
+  
+  Aku : lagi mandi?😐 Masa? 😳Lagi mandi sambil chat .🤨
+  
+  {who:camelcase} : beneran.😮
+  
+  Aku : mana buktinya. Pap😋
+  
+  {who:camelcase} : ini buktinya 🥶…(pic)
+  
+  Aku : EE EE EEAAR😣😣😣 EEAAAAAARRRGGKKHHHH😖😖😖😖AAAAA🫨🫨🫨EEAAARRGGKHHHHHHHHHH EEAARKH😣🥵😖😖🥵🥵😣🥵🥵😖😖🥵😣ERRRGKKHHH😣😖🥵🥵😵‍💫😵‍💫😵
+  
+  {who:camelcase} : 🫠
