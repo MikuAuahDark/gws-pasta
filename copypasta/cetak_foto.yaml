@@ -1,0 +1,26 @@
+name: Cetak Foto
+inputs:
+  - name: gender
+    description: Mas atau Mbak?
+    choice: [mbak, mas]
+    default: 1
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Honami
+
+text: |
+  Dapet pesenan minta cetakin foto 3x4 1 biji, udah saya bilang minimal 4 pcs, dibilangin masih aja ngotot pengen 1,
+  yaudah lah maunya dia.
+
+  Tapi pas udah jadi simpen aja kata si {gender}nya, lah gw bingung dong kok simpen aja? Kan yang butuh dia, terus dia
+  bilang "nggak, kamu bakal butuh itu." Makin bingung lah gw, balik gw tanya "kok kamu mikir saya bakal butuh foto
+  kamu?" Dia pun dengan santai jawab "Buat buku nikah kita lah, lucu ah kamu!"
+
+  Wait, gw perhatiin lagi si {gender}nya dan ternyata "{who:camelcase}?!" Si {gender} cuman ketawa dan jawab "Kamu dari
+  tadi kek kebingungan gitu lucu deh, yaudah ku jailin aja deh." Gw disini masih gak nyangka dia beneran nyata dan
+  dateng kesini padahal gak pernah ku kasih alamatku, udah gitu sekalian gw kenalin ke keluarga kalo ini calon istri
+  gw.
+
+  Itulah My Kisah.
+
+  Kebetulan sempet gw foto sebelumnya, tuh orangnya 😅
