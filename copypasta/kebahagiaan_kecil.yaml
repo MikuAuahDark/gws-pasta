@@ -1,0 +1,25 @@
+name: KEBAHAGIAAN KECIL
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Dia-chan
+
+text: |
+  KEBAHAGIAAN KECIL GUE SEBAGAI SEORANG SUAMI
+
+  Seperti biasa, gue sibuk kerja sebagai freelancer. Begitu selesai, bukannya menghampiri Istri yang duduk di sofa,
+  gue malah scroll Facebook. Dia melirikku dengan mata besar yang jelas-jelas berkata, “Hei, aku di sini, lho.”
+
+  Beberapa menit kemudian, dia mendekat, membawa segelas teh. "Mas, aku bikinin teh. Tapi… aku kangen, nih. Boleh
+  ngobrol sebentar?" katanya manja.
+
+  Gue cuma tersenyum kecil. "Bentar lagi, ya," jawabku, masih fokus ke layar.
+
+  Tapi tiba-tiba, dia menutup laptopku dengan tangan mungilnya. "Mas, aku kalah menarik sama Facebook, ya?" katanya
+  sambil menatapku tajam.
+
+  Deg. Gue sadar Gue salah. Gue menariknya ke pangkuanku, menatap wajah cantiknya, dan berkata, "Maaf, Sayang. Mulai
+  sekarang, waktu istirahatku cuma buat kamu."
+
+  {who:camelcase} tersenyum cerah, lalu memelukku erat. "Nah, gitu dong. Aku kan istrimu, {who:camelcase} yang paling
+  cantik," ujarnya sambil tertawa kecil.
