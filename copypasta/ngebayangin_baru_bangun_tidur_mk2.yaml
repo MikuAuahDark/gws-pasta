@@ -5,7 +5,7 @@ inputs:
     default: Honoka
   - name: you
     description: Siapa namamu?
-    default: [NAMAMU]
+    default: "[NAMAMU]"
 text: |
   Kadang aku ngebayangin gimana pas aku bangun tidur ternyata {who:camelcase} ada di samping aku, sambil ngomong
   "sayang bangun yuk aku udah buatin makanan kesukaan kamu lohh.." Ku langsung peluk {who:camelcase} dengan lembut.
