@@ -1,0 +1,15 @@
+name: Perkara seiyuu nikah
+inputs:
+  - name: seiyuu
+    description: Siapa?
+    default: Rieri
+
+text: |
+  Rame amat perkara seiyuu nikah sama orang luar terutama India...
+
+  Padahal udah biasa aja kayak aku yg udah nikah sama Ayang {seiyuu:camelcase} dari lama 😍💖💕
+
+  Dan sekarang langgeng dong kita ✨
+
+
+  Kalian no iri ya 😜🤟
