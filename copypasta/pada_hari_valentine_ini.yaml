@@ -1,0 +1,22 @@
+name: Pada Hari Valentine Ini
+inputs:
+  - name: waifu
+    description: Siapa?
+    default: Rieri
+
+text: |
+  Pada Hari Valentine ini, aku ingin mengungkapkan betapa besar cintaku padamu. Terima kasih telah menjadi istriku
+  terbaik yang pernah aku miliki
+
+  Aku tidak bisa membayangkan hidupku tanpa Amane yang cantik, imut, tembem, dan penuh kasih sayang. Happy Valentine's
+  Day, sayang ❤️
+
+  Sebagai tanda terima kasih, aku buatkan pantun untukmu
+
+  {waifu:camelcase} adalah hatiku, cinta sejatiku,
+
+  Menjadi istri-nya adalah mimpi yang sudah tercapai.
+
+  Di sampingnya aku merasa damai,
+
+  Pada Hari Valentine, cinta kuucapkan selamanya🥰.
