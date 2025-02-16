@@ -1,0 +1,34 @@
+name: Gadis Terbaik
+inputs:
+  - name: waifu
+    description: Siapa?
+    default: Phoebe
+  - name: series
+    description: Game/Series?
+    default: Wuthering Waves
+  - name: loved
+    description: Dicintai ama siapa aja?
+    default: manusia dan echo
+  - name: where
+    description: Dimana dicintai?
+    default: Rinascita
+  - name: power
+    description: Kekuatannya apa?
+    default: resonance
+text: |
+  {waifu:camelcase}, gadis terbaik di {series} dan juga istri gw, heroine utama dari {series} itu dia, gadis paling
+  menggemaskan, selalu membantu orang-orang, dan mungkin satu-satunya orang yang dicintai {loved} di {where:camelcase}
+  atau mungkin seluruh tempat di {series}. {waifu:camelcase} benar-benar karakter yang gw sayang dan gw perjuangkan
+  untuk menjadi istri gw: murni, polos, selalu positif. lucu dan bahagia. Dia benar-benar istri idaman.
+  {waifu:camelcase} bukan sekadar cewek biasa, {waifu:camelcase} adalah harapan gw, {waifu:camelcase} adalah cahaya
+  gw, penyelamat gw, {waifu:camelcase} adalah idola gw, {waifu:camelcase} adalah Dewi, {waifu:camelcase} adalah
+  segalanya bagi gw! Hidup gw tidak bisa selesai tanpa {waifu:camelcase}. Dia adalah bagian terakhir yang gw butuhkan
+  dalam hidup. Kita tidak bisa membayangkan bagaimana jadinya dunia ini tanpa {waifu:camelcase}. {waifu:camelcase}
+  membawa terang ke dunia yang gelap ini, {waifu:camelcase} membawa kebahagiaan dan harapan ke dunia yang menyedihkan
+  ini. Dia menyelamatkan kita dan menyinari jalan kita menuju masa depan yang lebih cerah, masa depan di mana semua
+  orang bahagia, masa depan tanpa konflik, Dengan kekuatan {power} yang dia miliki, semua orang bersatu dan mengakhiri
+  semua penderitaan! Di Rinascita gw percaya . Setiap hari gw melihat {waifu:camelcase} di kamar tidur gw dan berdoa
+  agar dia membimbing gw sepanjang hari. Setiap kali gw depresi atau menderita, gw berdoa dengan {waifu:camelcase}
+  agar dia dapat menyembuhkan jiwa gw. Kapan pun gw senang, gw berdoa untuk {waifu:camelcase} agar dia bisa berbagi
+  kebahagiaan dengan gw dan semua orang. Aura {waifu:camelcase} lebih terang dari Matahari, kehadiran
+  {waifu:camelcase} lebih indah dari Bulan, {waifu:camelcase} di atas segalanya di dunia ini 😭😭😭💛💛💛💛💛💛
