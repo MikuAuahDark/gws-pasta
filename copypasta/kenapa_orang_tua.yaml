@@ -1,0 +1,12 @@
+name: Orang Tua Ga Support
+inputs:
+  - name: waifu
+    description: Siapa?
+    default: Hoto Cocoa
+text: |
+  Kenapa sih orangtua ga pernah support anaknya, 😶 bilangnya yang terbaik buat gw, padahal gak sama sekali woi 😠.
+  Udah dijelasin panjang lebar kalau yg terbaik harusnya bikin gw bahagia. Dengarkan lah apa yg gw mau. Dikit dikit
+  marah, dikit dikit dilarang. Capek asli, capek bgt.
+
+  Kenapa ya, kenapa gitu masih aja disuruh cari wanita lain, padahal aku mau nikahnya sama {waifu:camelcase}. Cantik,
+  jago masak, imut, jago nyanyi, pinter pula. Dia kan wanita yg perfect buatku.
