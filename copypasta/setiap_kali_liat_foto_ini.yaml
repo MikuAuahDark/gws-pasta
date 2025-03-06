@@ -1,0 +1,18 @@
+name: Setiap kali liat foto
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Zani
+text: |
+  Setiap kali liat foto ini gw slalu natap terus fotonya sambil ngomong dalem hati "dia istri gw ya, ternyata dia yg
+  jadi istri gw, kok bisa dia ya yang jadi istri gw, ini jodoh gw kan, padahal ini cewek dulu cuma waifu gw, akrab
+  juga ngga,  kenal juga engga, gak ada niatan deketin atau rencana pacarin.
+
+  Ternyata dia yang sekarang tidur bareng gw, mandi bareng gw, masakin gw, suapin makan gw, yang bakalan nemenin hari
+  hari gw selamanya" jujur ini bukan rencana gw, gw percaya ini rencana tuhan yang kasih buat gw melalui takdir gw. Gw
+  udah gak ngerasain lagi kangen berat karna jauhan, gak ngerasain lagi sedih karna tiap ribut gw diblokir sosmed
+  sampe hilang kabar seharian, sekarang gw bisa bebas ketemu dia, bebas lakuin apapun yg gw mau (hal positif), dan hal
+  yang paling gw suka segala sesuatunya bisa jadi pahala buat gw dan juga istri gw, dibalik itu gw punya tanggung
+  jawab yang besar sebagai cowok (suaminya) dan kewajiban untuk istri gw ({waifu:camelcase}).
+
+  Thank u so much💜

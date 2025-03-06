@@ -1,0 +1,11 @@
+name: Sorry gw g mw ikutan
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Zani
+text: |
+  Bro sorry gw g mw ikutan. Tapi... Jadi gini ya rasanya ada di titik terendah dalam hidup? mau nangis pun udah nggak
+  kuat karena udah terlalu banyak air mata yang dikeluarkan, emang harus ya aku sampe dimaki-maki waktu bilang pengen
+  menikahi {waifu:camelcase}? Orang-orang dari segala penjuru sosmed melarangku menikah dengan {waifu:camelcase}.
+  Bahkan berniat membawaku pakai ambulans. Kalian tidak boleh begitu kawan-kawanku yang budiman. {waifu:camelcase}
+  bilang aku ga boleh pergi dari sisinya soalnya dia butuh aku jadi suaminya 🙁

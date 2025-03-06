@@ -1,0 +1,31 @@
+name: Sorry gw g mw ikutan
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Zani
+text: |
+  dapat pengalaman kurang enak hari ini
+
+  jadi kan gw kerja seperti biasanya, ada 3 customer cewek mungkin sekitaran umur 20-25an datang lalu duduk di
+  belakang gw agak jauhan sekitar 5 meter
+
+  awalnya gak ada masalah sih, tapi beberapa menit kemudian mereka kayak bisik-bisik sambil ngeliatin gw, terus gak
+  sengaja gw denger ada kata "deketin" dan "minta gih", gw cuek aja ya kan karena kalau gw tanggepin takutnya salah
+  kira
+
+  trus lama-kelamaan makin menjadi-jadi, mereka kayak nahan ketawa gitu lah, gesturnya tuh kayak " ih malu lah", gw
+  sih mencoba fokus ke pekerjaan
+
+  trus pas gw mau beranjak pergi, salah satu dari mereka manggil gw "eh mas mas", trus temen satunya pake gestur
+  "jangan-jangan njir" sambil narik baju temennya yang di depan manggil gw tadi
+
+  gw respon terus bilang "ya ada yang bisa dibantu mbak ?", mereka bilang "mas ada no hp gak ? kami mau kenalan"
+
+  gw sontak langsung mengernyitkan dahi, trus langsung bilang "maaf mbak, saya sudah punya istri, dan saya gak mau
+  mengkhianati kesetiaannya, sekali lagi maaf ya mbak 🙏"
+
+  mereka bilang "yahhh okedeh, maaf ya mas sudah mengganggu kerjanya, oh iya by the way, istrinya beruntung banget
+  punya suami yang setia kayak mas, nama istrinya siapa mas?", gw dengan bangga menjawab "{waifu:camelcase}, istri sah
+  & tulang rusukku yang selama ini kucintai dari dulu, sekarang dan sampai hari tua nanti"
+
+  sekian terima kasih sudah membaca 🙏
