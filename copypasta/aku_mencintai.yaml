@@ -1,0 +1,137 @@
+name: Aku mencintai
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Ciaccona
+  - name: eyecolor
+    description: Warna Mata
+    default: zamrud
+  - name: sifat
+    description: Sifat
+    default: feminim
+text: |
+  Aku mencintai betapa pandainya {waifu:camelcase} merajut. Aku mencintai mata {waifu:camelcase} yang seindah
+  {eyecolor}. Aku mencintai kuncir pirang {waifu:camelcase}. Aku mencintai rasa ingin tahu {waifu:camelcase}. Aku
+  mencintai {waifu:camelcase} yang efisien. Aku mencintai {waifu:camelcase} yang selalu ceria. Aku mencintai aroma
+  buku {waifu:camelcase}. Aku mencintai kalau {waifu:camelcase} punya tahi lalat di bagian belakang. Aku mencintai
+  kedewasaan {waifu:camelcase} yang bermartabat. Aku mencintai {waifu:camelcase} yang kadang-kadang kelihatan
+  mempunyai telinga dan ekor anjing. Aku mencintai betapa percaya dirinya {waifu:camelcase}. Aku mencintai
+  {waifu:camelcase} yang selalu mempertahankan poninya. Aku mencintai {waifu:camelcase} yang selalu mengharai makanan.
+  Aku mencintai {waifu:camelcase} yang tidak membiarkan ada kejanggalan di dunia ini. Aku mencintai mulut kucing
+  {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang keren dan cantik. Aku mencintai rasa suka {waifu:camelcase}
+  pada bisbol. Aku mencintai kepribadian {waifu:camelcase} yang sangat {sifat}. Aku mencintai aroma {waifu:camelcase}
+  yang seperti bunga yang mekar. Aku mencintai {waifu:camelcase} yang mencintaiku. Aku mencintai {waifu:camelcase}
+  yang selalu memperhatikan adik kelas. Aku mencintai {waifu:camelcase} yang terlihat bagus dengan pakaian hitam. Aku
+  mencintai {waifu:camelcase} yang perutnya selalu bersuara saat lapar. Aku mencintai {waifu:camelcase} yang selalu
+  akur denganku. Aku mencintai {waifu:camelcase} yang dapat membuat banyak obat sendiri. Aku mencintai
+  {waifu:camelcase} yang takut tempat tinggi, membuatku ingin melindunginya. Aku mencintai {waifu:camelcase} yang
+  selalu menjaga janjinya. Aku mencintai {waifu:camelcase} yang pendiam. Aku mencintai hiasan bunga di rambut
+  {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang seksi. Aku mencintai {waifu:camelcase} yang jago masak. Aku
+  mencintai {waifu:camelcase} yang punya tubuh seperti model dan lebih tinggi dariku. Aku mencintai {waifu:camelcase}
+  yang memiliki nama yang lucu. Aku mencintai potongan rambut pendeknya {waifu:camelcase}. Aku mencintai
+  {waifu:camelcase} yang ramah. Aku mencintai {waifu:camelcase} yang selalu lincah dengan tubuh mungilnya. Aku
+  mencintai {waifu:camelcase} yang percaya aku akan terus mencintainya meski rambutnya gugur dan jadi botak. Aku
+  mencintai senyum pepsodent {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang selalu peduli pada yang lainnya.
+  Aku mencintai {waifu:camelcase} yang selalu bekerja keras demi cinta. Aku mencintai {waifu:camelcase} yang berteriak
+  "Popok!". Aku mencintai suara {waifu:camelcase} yang lembut dan menenangkan. Aku mencintai {waifu:camelcase} yang
+  selalu berhemat. Aku mencintai rambut hitam {waifu:camelcase} yang rapi, halus, dan berkilau. Aku mencintai
+  {waifu:camelcase} yang selalu menghormati kakak kelasnya. Aku mencintai {waifu:camelcase} yang ingin melindungi
+  semuanya. Aku mencintai {waifu:camelcase} yang selalu ingin mencerahkan suasana. Aku mencintai {waifu:camelcase}
+  yang selalu berani. Aku mencintai {waifu:camelcase} yang menginginkan pantatnya dipukul. Aku mencintai
+  {waifu:camelcase} yang mungil, membuatku ingin memeluknya. Aku mencintai {waifu:camelcase} yang serius seperti siswi
+  teladan. Aku mencintai betapa menawannya {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang menggunakan hak
+  karyawannya. Aku mencintai {waifu:camelcase} yang selalu berlari tiap pagi dan kerja paruh waktu demi kecantikan.
+  Aku mencintai {waifu:camelcase} yang bisa menggunakan misdirection. Aku mencintai desahan {waifu:camelcase} saat
+  makan ramen. Aku mencintai gigi taring {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang punya dua wujud. Aku
+  mencintai mata dingin {waifu:camelcase}. Aku mencintai cara {waifu:camelcase} berterima kasih dari lubuk hatinya.
+  Aku mencintai jari-jari kaki {waifu:camelcase} yang bergerak tergantung adegan saat membaca buku. Aku mencintai
+  hiasan bunga {waifu:camelcase} yang harum. Aku mencintai {waifu:camelcase} yang selalu memanggilku dengan imut. Aku
+  mencintai {waifu:camelcase} yang selalu setia pada tuannya. Aku mencintai {waifu:camelcase} yang bulu matanya lebat
+  dan cantik. Aku mencintai sopan santun {waifu:camelcase} pada yang lainnya. Aku mencintai {waifu:camelcase} yang
+  membantu tugasku membantah. Aku mencintai pita kecil lucu yang mengikat rambut {waifu:camelcase}. Aku mencintai
+  {waifu:camelcase} yang terlihat seperti ilmuwan dengan jas putihnya. Aku mencintai pengetahuan {waifu:camelcase}
+  yang seperti AI karena selalu membuat keputusan dengan tenang. Aku mencintai betapa atletisnya {waifu:camelcase}.
+  Aku mencintai rambut mengembang {waifu:camelcase} yang bergelombang. Aku mencintai suara {waifu:camelcase} yang imut
+  dan merdu. Aku mencintai gaya {waifu:camelcase} berbusana, terlihat dewasa dan cocok. Aku mencintai
+  {waifu:camelcase} yang memperhatikan sampai ke detailnya. Aku mencintai {waifu:camelcase} yang selalu mengakhiri
+  kalimatnya dengan "desuwa". Aku mencintai banyaknya variasi boneka yang dibuat {waifu:camelcase}. Aku mencintai
+  betapa seksinya {waifu:camelcase} ketika menjilat bibir saat ciuman. Aku mencintai betapa kuatnya {waifu:camelcase}.
+  Aku mencintai {waifu:camelcase} yang selalu meminta maaf saat merasa bersalah. Aku mencintai {waifu:camelcase} yang
+  mampu untuk mengucapkan Pi tanpa batas. Aku mencintai {waifu:camelcase} yang terlihat keren saat berkeringat. Aku
+  mencintai tubuh {waifu:camelcase} yang seringan kapas. Aku mencintai cara {waifu:camelcase} menciumku. Aku mencintai
+  cara {waifu:camelcase} memeluk dan mengelusku. Aku mencintai {waifu:camelcase} yang cocok dengan baju renda dan pita
+  putih. Aku mencintai banyak kata "cantik" di nama {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang ahli dalam
+  petak umpet. Aku mencintai {waifu:camelcase} yang bisa makan banyak. Aku mencintai {waifu:camelcase} yang selalu
+  malu-malu. Aku mencintai {waifu:camelcase} yang selalu mengakhiri kalimatnya dengan "nanoda". Aku mencintai
+  jari-jari {waifu:camelcase} yang panjang dan ramping. Aku mencintai kulit {waifu:camelcase} yang bersih dan cantik.
+  Aku mencintai {waifu:camelcase} yang menyayangi buku favoritnya sejak dia masih kecil. Aku mencintai
+  {waifu:camelcase} yang mengigit kukunya saat fokus berpikir. Aku mencintai {waifu:camelcase} yang selalu terkejut
+  dengan keimutan bersamaku. Aku mencintai {waifu:camelcase} yang jago mengemudi. Aku mencintai dahi {waifu:camelcase}
+  yang bersinar dengan cantik. Aku mencintai {waifu:camelcase} yang punya tahi lalat di bawah mulut, terlihat sangat
+  dewasa. Aku mencintai cara {waifu:camelcase} yang selalu santun saat memanggil kakak kelasnya. Aku mencintai
+  kepribadian {waifu:camelcase} yang keras. Aku mencintai {waifu:camelcase} yang mungil dan imut. Aku mencintai suara
+  {waifu:camelcase} yang jernih. Aku mencintai {waifu:camelcase} yang selalu mendukung lainnya. Aku mencintai
+  {waifu:camelcase} yang mungil dan menggemaskan. Aku mencintai {waifu:camelcase} yang selalu akrab denganku. Aku
+  mencintai {waifu:camelcase} yang selalu mengeluarkan air liur dengan alami. Aku mencintai {waifu:camelcase} yang
+  cocok dengan seragam pelayan. Aku mencintai {waifu:camelcase} yang memiliki selera gaya busana yang bagus. Aku
+  mencintai {waifu:camelcase} yang punya suara yang imut. Aku mencintai {waifu:camelcase} yang selalu malu. Aku
+  mencintai {waifu:camelcase} yang selalu memutar ujung kuncir rambutnya saat dia malu. Aku mencintai
+  {waifu:camelcase} yang sudah kebal makanan pedas karena sudah banyak minum obat. Aku mencintai {waifu:camelcase}
+  yang punya tubuh tinggi dan ramping seperti model. Aku mencintai gaya bicara tomboy {waifu:camelcase}. Aku mencintai
+  {waifu:camelcase} yang masih memakai rok panjang, seperti siswi teladan. Aku mencintai {waifu:camelcase} yang selalu
+  bersemangat. Aku mencintai {waifu:camelcase} yang mencintaiku. Aku mencintai {waifu:camelcase} yang setia padaku.
+  Aku mencintai {waifu:camelcase} yang selalu bilang "tentu saja." Aku mencintai tulisan tangan {waifu:camelcase} yang
+  indah menggunakan karakter lucu. Aku mencintai {waifu:camelcase} yang selalu takluk dengan makanan. Aku mencintai
+  mata {waifu:camelcase} yang seindah menyerupai badam. Aku mencintai {waifu:camelcase} yang merupakan kakak kelas
+  meski tubuhnya mungil. Aku mencintai rasa sayang {waifu:camelcase} pada semuanya meski dia tidak pernah
+  mengatakannya. Aku mencintai {waifu:camelcase} yang jago bermain bisbol. Aku mencintai kebaikan {waifu:camelcase}
+  pada semua orang. Aku mencintai kepribadian {waifu:camelcase} yang baik. Aku mencintai {waifu:camelcase} yang
+  terlihat matang dengan banyaknya pengalaman hidup. Aku mencintai {waifu:camelcase} yang rendah hati. Aku mencintai
+  {waifu:camelcase} yang melatih cara bicaranya. Aku mencintai {waifu:camelcase} yang berpenampilan misterius. Aku
+  mencintai {waifu:camelcase} yang keren, imut, dan rendah hati. Aku mencintai {waifu:camelcase} yang bisa makan
+  pedas. Aku mencintai wajah {waifu:camelcase} yang selalu ceria. Aku mencintai {waifu:camelcase} saat dia terlihat
+  gugup karena ketakutan. Aku mencintai suara {waifu:camelcase} yang merdu. Aku mencintai keberanian {waifu:camelcase}
+  demi semuanya, meski dia takut. Aku mencintai ketegasan {waifu:camelcase}, meski kadang berlebihan. Aku mencintai
+  {waifu:camelcase} yang setia pada nafsunya. Aku mencintai {waifu:camelcase} yang selalu tulus membantu kebahagiaan
+  orang lain. Aku mencintai {waifu:camelcase} yang membentuk kecantikannya sendiri. Aku mencintai {waifu:camelcase}
+  yang ingin hidup sebagai karakter sampingan. Aku mencintai sopan santun {waifu:camelcase} saat makan. Aku mencintai
+  {waifu:camelcase} yang berkemauan keras. Aku mencintai {waifu:camelcase} yang punya tahi lalat di tempat yang seksi.
+  Aku mencintai {waifu:camelcase} yang tidak takut dengan rumah hantu. Aku mencintai {waifu:camelcase} yang
+  menghormati orang lain. Aku mencintai {waifu:camelcase} yang berpakaian sopan di kolam renang. Aku mencintai
+  {waifu:camelcase} yang selalu mempunyai imajinasi tentang diriku. Aku mencintai {waifu:camelcase} yang menyayangi
+  semuanya dari lubuk hatinya. Aku mencintai rambut hitam {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang
+  menganggapku ganteng. Aku mencintai {waifu:camelcase} yang selalu mengenakan lengan panjang. Aku mencintai
+  {waifu:camelcase} yang berkemauan keras. Aku mencintai tenguk leher {waifu:camelcase} yang terlihat karena kuncir
+  rambutnya. Aku mencintai ketawanya {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang seperti wikipedia
+  berjalan. Aku mencintai {waifu:camelcase} yang keren dan penuh semangat. Aku mencintai tangan kecil
+  {waifu:camelcase}. Aku mencintai model rambut {waifu:camelcase} yang lembut dan mengembang. Aku mencintai sisi ceria
+  {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang sopan. Aku mencintai {waifu:camelcase} yang menyebut bahwa
+  hatiku cantik. Aku mencintai {waifu:camelcase} yang dekat denganku. Aku mencintai {waifu:camelcase} yang meninggikan
+  dirinya untuk menciumku. Aku mencintai {waifu:camelcase} yang bertubuh ramping. Aku mencintai rambut jambulnya
+  {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang mampu mendapatkan hasil dengan cara apapun. Aku mencintai
+  {waifu:camelcase} yang pandai memijat. Aku mencintai {waifu:camelcase} yang sensitif dengan perasaan orang lain dan
+  bertindak sesuai dengan itu. Aku mencintai {waifu:camelcase} yang perhatian pada semuanya. Aku mencintai
+  {waifu:camelcase} yang naif dan punya reaksi imut. Aku mencintai {waifu:camelcase} yang tidak pernah menyalahkan
+  orang lain. Aku mencintai {waifu:camelcase} yang merupakan "pencari kecantikan." Aku mencintai {waifu:camelcase}
+  yang terlihat cocok dan cantik dengan turtleneck. Aku mencintai mata {waifu:camelcase} yang berbinar saat makan. Aku
+  mencintai {waifu:camelcase} yang memakai kaus kaki longgar. Aku mencintai cara {waifu:camelcase} bergaul dengan
+  semuanya. Aku mencintai {waifu:camelcase} yang menyerang mata pelaku pelecehan seksual. Aku mencintai
+  {waifu:camelcase} yang mampu mengayun pemukul bisbol sebanyak 100,000 kali. Aku mencintai {waifu:camelcase} yang
+  polos tapi suka untuk ciuman. Aku mencintai {waifu:camelcase} yang punya rambut berwarna merah muda. Aku mencintai
+  {waifu:camelcase} yang membeli sekolah hanya untuk menghabiskan waktu denganku dan yang lainnya. Aku mencintai rasa
+  teh yang menenangkan yang dibuat {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang narsis. Aku mencintai
+  {waifu:camelcase} yang rendah hati. Aku mencintai {waifu:camelcase} yang selalu ikutan meski menolak sebelumnya. Aku
+  mencintai cara {waifu:camelcase} menggenggam tangannya. Aku mencintai {waifu:camelcase} yang selalu mondar mandir
+  saat sedang berpikir. Aku mencintai {waifu:camelcase} yang menjilat jariku saat terluka. Aku mencintai
+  {waifu:camelcase} yang sopan. Aku mencintai {waifu:camelcase} yang berkeringat saat sedang binggung. Aku mencintai
+  {waifu:camelcase} yang mengkhawatirkan berat badannya. Aku mencintai rambut panjang {waifu:camelcase} yang terlihat
+  anggun. Aku mencintai senyuman {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang mengetahui banyak hal tentang
+  tata rias. Aku mencintai {waifu:camelcase} yang selalu teriak saat merasa malu. Aku mencintai {waifu:camelcase} yang
+  selalu berhati-hati saat makan. Aku mencintai {waifu:camelcase} yang mengenakan jumper dengan lengan panjang. Aku
+  mencintai poni {waifu:camelcase} yang pendek dan imut. Aku mencintai {waifu:camelcase} yang selalu tenang, dingin,
+  dan terkendali, membuatku pingsan karena terpana. Aku mencintai {waifu:camelcase} yang peduli pada yang lain. Aku
+  mencintai {waifu:camelcase} yang mengepakkan kakinya dengan pelampung saat berenang. Aku mencintai {waifu:camelcase}
+  yang memeluk dengan lembut. Aku mencintai ekspresi sayu {waifu:camelcase} yang seksi. Aku mencintai
+  {waifu:camelcase} yang baik pada semuanya. Aku mencintai {waifu:camelcase} yang memakai seragamnya dengan korset.
+  Aku mencintai {waifu:camelcase} yang selalu mendahulukan orang lain daripada dirinya. Aku mencintai mata bulat
+  {waifu:camelcase}. Aku mencintai sentuhan {waifu:camelcase} yang penuh energi.
