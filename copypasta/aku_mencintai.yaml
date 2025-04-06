@@ -9,6 +9,9 @@ inputs:
   - name: sifat
     description: Sifat
     default: feminim
+  - name: rambut
+    description: Warna Rambut
+    default: merah muda
 text: |
   Aku mencintai betapa pandainya {waifu:camelcase} merajut. Aku mencintai mata {waifu:camelcase} yang seindah
   {eyecolor}. Aku mencintai kuncir pirang {waifu:camelcase}. Aku mencintai rasa ingin tahu {waifu:camelcase}. Aku
@@ -117,7 +120,7 @@ text: |
   mencintai {waifu:camelcase} yang memakai kaus kaki longgar. Aku mencintai cara {waifu:camelcase} bergaul dengan
   semuanya. Aku mencintai {waifu:camelcase} yang menyerang mata pelaku pelecehan seksual. Aku mencintai
   {waifu:camelcase} yang mampu mengayun pemukul bisbol sebanyak 100,000 kali. Aku mencintai {waifu:camelcase} yang
-  polos tapi suka untuk ciuman. Aku mencintai {waifu:camelcase} yang punya rambut berwarna merah muda. Aku mencintai
+  polos tapi suka untuk ciuman. Aku mencintai {waifu:camelcase} yang punya rambut berwarna {rambut}. Aku mencintai
   {waifu:camelcase} yang membeli sekolah hanya untuk menghabiskan waktu denganku dan yang lainnya. Aku mencintai rasa
   teh yang menenangkan yang dibuat {waifu:camelcase}. Aku mencintai {waifu:camelcase} yang narsis. Aku mencintai
   {waifu:camelcase} yang rendah hati. Aku mencintai {waifu:camelcase} yang selalu ikutan meski menolak sebelumnya. Aku
