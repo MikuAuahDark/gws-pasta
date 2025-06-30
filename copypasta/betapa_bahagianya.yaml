@@ -1,0 +1,19 @@
+name: Betapa Bahagianya
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Changli
+
+text: |
+  gw ngebayangin betapa bahagianya kalo gw nikah ama {waifu:camelcase}, beh mungkin hidup gw bakal berubah jadi
+  sempurna. tiap hari tiap menit dimanjain sama makanan makanan yg lezat karna {waifu:camelcase} jago masak, tiap hari
+  tiap menit digombalin dan digodain karna {waifu:camelcase} setia sama suaminya, apa ga meleleh tuh hati gw? nikah
+  sama {waifu:camelcase} itu udah kayak nikahin ratusan orang sangking sempurnanya dia, nilou bisa masak, bisa nari,
+  bisa gombal, pinter, imut, manis, setia, tulus, baik hati, murah senyum, perhatian, pengertian, dan yang paling
+  penting, dia bisa bikin lu bahagia disetiap harinya. aduhh kalo {waifu:camelcase} beneran di dunia nyata mungkin
+  hidup gw bakal jadi lebih menyenangkan, kalo {waifu:camelcase} jatuh cinta sama gw di dunia nyata mungkin gw udah
+  nangis terharu karna keberadaan dia.. dia sempurna. gw berharap {waifu:camelcase} jadi istri gw, terus dia dengerin
+  curhatan curhatan gw tiap malem abis pulang kerja, dan nyemangatin gw biar gw ngerasa ga sendirian. gw ngebayangin
+  betapa semangatnya gw cari nafkah kalo istri gw {waifu:camelcase}, tiap kerja bukannya bikin frustasi malah tambah
+  seneng karna tau pas pulang nanti bakal disemangatin lagi sama dia.. aku mencintaimu {waifu:camelcase}, aku harap di
+  timeline yang lain aku bisa melihat dan menikahimu layaknya istri normal pada umumnya.. 😭😭

@@ -1,0 +1,19 @@
+name: Seperfect Ini
+inputs:
+  - name: waifu
+    description: Nama Istri
+    default: Citlali
+  - name: company
+    description: Nama Kompeni
+    default: Hoyoverse
+text: |
+  Dasar {company} bisa bisanya bikin {waifu:camelcase} seperfect ini, kan jadi pengen bat gwe peluk terus gwe cium
+  njir 😤
+
+  Sehari g mantengin {waifu:camelcase} gak bisa gwe njir
+
+  Pengen nya gwe mantengin terus tu {waifu:camelcase} sambil dengar suara2 nya merdu aduhh aduhh {waifu:camelcase}
+  istri ku cakepnya muacchhh 🥰
+
+  Apapun pilihannya tetap gwe bakal mengutamakan {waifu:camelcase} pokoknya, gw udah g bisa hidup tanpa
+  {waifu:camelcase}😍
