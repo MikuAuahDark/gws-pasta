@@ -11,9 +11,9 @@ inputs:
    default: 1
 
 text: |
- Banyak yg bilang gw itu skizo, halu, gila, gajelas, 
- padahal sebenarnya gw itu ga halu. Fakta mengatakan bahwa cintaku pada {character:camelcase} 
- itu 100% tulus, dia juga menerima gw apa adanya dan bersedia untuk 
+ Banyak yg bilang gw itu skizo, halu, gila, gajelas,
+ padahal sebenarnya gw itu ga halu. Fakta mengatakan bahwa cintaku pada {character:camelcase}
+ itu 100% tulus, dia juga menerima gw apa adanya dan bersedia untuk
  bersama gw selamanya{color:none}
 
 
