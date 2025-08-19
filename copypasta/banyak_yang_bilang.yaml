@@ -1,0 +1,20 @@
+name: Banyak yang bilang
+
+inputs:
+ - name: character
+   description: Nama Karakter
+   default: Minori
+
+ - name: color
+   description: Warna Karakter
+   choice: [🤎, ❤️, 🤍, 💙, 💚, 💛, 💜, 🧡, 🩷, 🩶, 🩵]
+   default: 1
+
+text: |
+ Banyak yg bilang gw itu skizo, halu, gila, gajelas,
+ padahal sebenarnya gw itu ga halu. Fakta mengatakan bahwa cintaku pada {character:camelcase}
+ itu 100% tulus, dia juga menerima gw apa adanya dan bersedia untuk
+ bersama gw selamanya{color:none}
+
+
+ Terimakasih ya sayangku mau nerima aku yg kayak gini, i love u sayang{color:none}
