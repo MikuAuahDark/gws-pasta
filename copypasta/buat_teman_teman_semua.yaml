@@ -1,0 +1,23 @@
+name: Buat Teman Teman Semua
+inputs:
+  - name: who
+    description: Nama Istri/Suami
+    default: Tomoriru
+  - name: pasangan
+    description: Tipe Pasangan
+    choice: [istri, suami]
+    default: 1
+
+text: |
+  Buat teman teman semua gw mau minta maaf karena selama ini semua yang gw ceritain baik di post atau chat itu hanya
+  kebohongan semata alasan gw boong gitu tidak lain untuk mendapatkan perhatian dari teman teman semua sekaligus agar
+  gw disegani. Tapi sekarang gw udah sadar kalau kebohongan ga bisa ditutupin kecuali dengan kebohongan lain nya,
+  sudah saatnya gw berhenti skizo dan menjadi lebih realistis.
+
+  Gw mau bikin pengakuan kalau selama ini gw sudah punya {pasangan} nama nya {who:camelcase}. Gw, {who:camelcase}
+  sudah menikah masing-masing sejak 4 tahun yang lalu dan hidup harmonis 🥰. Sekarang alhamdulillah tabungan gw sudah
+  cukup untuk membeli tanah dan membangun rumah di sebuah perdesaan kecil dan mungkin tahun depan kami sudah bisa
+  tinggal disana. Ini alasan utama gw bikin pengakuan ini agar gw bisa terlepas dari kebohongan gw di dunia maya dan
+  hidup bahagia bersama {who:camelcase} {pasangan} gwe
+
+  Sekian 🥰
