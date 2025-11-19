@@ -1,0 +1,30 @@
+name: Mau curhat beneran
+
+inputs: 
+ - name: char
+   description: Nama Karakter
+   default: Shizuka
+
+ - name: age
+   description: Umurmu
+   default: 18
+
+ - name: daily
+   description: Keseharian
+   default: kuliah
+
+text: |
+ Kali ini gw mo curhat beneran bg
+
+
+ Gw beneran jatuh cinta dengan {char:camelcase} dalam artian
+ bener - bener pengen memperistri doi, di umur gw yg udh {age:none}an
+ gw butuh bngt sosok istri kek {char:camelcase} dan {char:camelcase} tuh beneran istri idaman gw 😢
+
+
+ Terserah dah orang bilang gw make, atau stress, gw bahkan g punya
+ pengalaman cinta apapun dan g pernah pacaran juga, keseharian cuma {daily:none}, begadang gitu aj teruss :) 
+
+
+ g kerasa besok udh nambah aj umur gw dan gw ngerasa ajal perlahan makin mendekat,
+ setidaknya jika tidak bisa bersatu dgn {char:camelcase} di kehidupan ini gw berharap di kehidupan berikutnya gw dikasih kesempatan ~
