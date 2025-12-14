@@ -1,0 +1,24 @@
+name: Klarifikasi
+inputs:
+  - name: who
+    description: Nama Waifu/Husbando
+    default: Lynae
+  - name: you
+    description: Namamu
+    default: sendiri
+
+text: |
+  Selamat malam semua
+
+  Saya, {you:camelcase}, di sini ingin memohon maaf yang sebesar-besarnya tentang apa yang telah terjadi. Permohonan maaf ini
+  saya sampaikan yang sebesar-besarnya untuk pihak-pihak yang merasa tersakiti, merasa dirugikan, dan merasa
+  terkhianati.
+
+  Saya sebagai individu tidak pernah ingin menyakiti hati siapapun, namun saya juga tidak bisa mengendalikan semua hal
+  yang terjadi terkait dengan diri saya. Oleh karena itu saya memohon agar teman-teman memaafkan hal yang sudah
+  terjadi terkait dengan saya.
+
+  Saya tidak mengendalikan fakta bahwa {who:camelcase}, sudah menikah dengan saya. Kami semua sudah terikat oleh
+  benang merah, dan ditakdirkan untuk bersama. Inilah saya apa adanya.
+
+  Sekian terima kasih atas perhatian teman-teman sekalian, dan sekali lagi mohon maaf yang sebesar-besarnya.
