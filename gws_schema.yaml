@@ -1,0 +1,65 @@
+$defs:
+  CopypastaChoiceInput:
+    properties:
+      choice:
+        items:
+          type: string
+        title: Choice
+        type: array
+      default:
+        default: 1
+        title: Default
+        type: integer
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      name:
+        title: Name
+        type: string
+    required:
+    - name
+    - choice
+    title: CopypastaChoiceInput
+    type: object
+  CopypastaStringInput:
+    properties:
+      default:
+        default: ''
+        title: Default
+        type: string
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
+      name:
+        title: Name
+        type: string
+    required:
+    - name
+    title: CopypastaStringInput
+    type: object
+properties:
+  name:
+    title: Name
+    type: string
+  inputs:
+    items:
+      anyOf:
+      - $ref: '#/$defs/CopypastaChoiceInput'
+      - $ref: '#/$defs/CopypastaStringInput'
+    title: Inputs
+    type: array
+  text:
+    title: Text
+    type: string
+required:
+- name
+- inputs
+- text
+title: CopypastaData
+type: object

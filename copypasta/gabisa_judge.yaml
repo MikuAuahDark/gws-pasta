@@ -1,0 +1,14 @@
+name: Gabisa Judge
+inputs:
+  - name: waifu
+    description: Nama Waifu/Husbando
+    default: Ceci
+  - name: thirdparty
+    description: Nama Pihak Ketiga
+    default: Yagoo
+text: |
+  ya sebenernya kita gabisa judge juga gasih? oke aku mau jujur aku udah setahunan living together. tapi menurutku itu
+  suatu hal yang gabisa kalian jadiin tolak ukur harga diri seseorang. well yes aku living together tapi menurutku ya
+  aku tetap aku. living together doesnt mean aku murahan or else ya. itu tuh cuma preferensi masing-masing orang dalam
+  berhubungan aja. toh aku juga udah rembukan kok sama {thirdparty:camelcase}, dan kami semua setuju kalo aku dan
+  {waifu:camelcase} gapapa living together before marriage asal arah hubungan kami jelas. Sekian
